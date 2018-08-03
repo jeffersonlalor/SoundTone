@@ -38,7 +38,6 @@
 		84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B0716720FE22E3002B03DF /* Starlight Personal.ttf */; };
 		84CA160C210E7C9000462F0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA160B210E7C9000462F0D /* Extensions.swift */; };
 		84CB1A55210E450C00BD5726 /* Moon Flower Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */; };
-		84F12F86210EC6A600022C49 /* ViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F12F85210EC6A600022C49 /* ViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,7 +74,6 @@
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
 		84CA160B210E7C9000462F0D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Is Loh/Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower Bold.ttf"; sourceTree = "<group>"; };
-		84F12F85210EC6A600022C49 /* ViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +114,6 @@
 				84721CE820F968AD00BD0D63 /* Main.storyboard */,
 				84721CEB20F968AF00BD0D63 /* Assets.xcassets */,
 				84721CF020F968AF00BD0D63 /* Info.plist */,
-				84F12F85210EC6A600022C49 /* ViewControler.swift */,
 			);
 			path = "Is Loh";
 			sourceTree = "<group>";
@@ -258,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84721CE720F968AD00BD0D63 /* ViewController.swift in Sources */,
-				84F12F86210EC6A600022C49 /* ViewControler.swift in Sources */,
 				84CA160C210E7C9000462F0D /* Extensions.swift in Sources */,
 				84721CE520F968AD00BD0D63 /* AppDelegate.swift in Sources */,
 			);

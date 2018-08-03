@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Is Loh
+//  Tone
 //
 //  Created by Jefferson de Oliveira Lalor on 13/07/2018.
 //  Copyright © 2018 Academy. All rights reserved.
