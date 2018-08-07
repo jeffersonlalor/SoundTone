@@ -11,13 +11,6 @@
 		84721CE720F968AD00BD0D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84721CE620F968AD00BD0D63 /* ViewController.swift */; };
 		84721CEA20F968AD00BD0D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84721CE820F968AD00BD0D63 /* Main.storyboard */; };
 		84721CEC20F968AF00BD0D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84721CEB20F968AF00BD0D63 /* Assets.xcassets */; };
-		8484ADC3211063F000C9CEE6 /* G - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADBC211063F000C9CEE6 /* G - Clean.mp3 */; };
-		8484ADC4211063F000C9CEE6 /* F - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADBD211063F000C9CEE6 /* F - Clean.mp3 */; };
-		8484ADC5211063F000C9CEE6 /* E - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADBE211063F000C9CEE6 /* E - Clean.mp3 */; };
-		8484ADC6211063F000C9CEE6 /* A - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADBF211063F000C9CEE6 /* A - Clean.mp3 */; };
-		8484ADC7211063F000C9CEE6 /* D - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADC0211063F000C9CEE6 /* D - Clean.mp3 */; };
-		8484ADC8211063F000C9CEE6 /* C - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADC1211063F000C9CEE6 /* C - Clean.mp3 */; };
-		8484ADC9211063F000C9CEE6 /* B - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADC2211063F000C9CEE6 /* B - Clean.mp3 */; };
 		8484ADCF211069DC00C9CEE6 /* A# - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADCA211069DC00C9CEE6 /* A# - Clean.mp3 */; };
 		8484ADD0211069DC00C9CEE6 /* F# - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADCB211069DC00C9CEE6 /* F# - Clean.mp3 */; };
 		8484ADD1211069DC00C9CEE6 /* C# - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADCC211069DC00C9CEE6 /* C# - Clean.mp3 */; };
@@ -38,6 +31,13 @@
 		84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B0716720FE22E3002B03DF /* Starlight Personal.ttf */; };
 		84CA160C210E7C9000462F0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA160B210E7C9000462F0D /* Extensions.swift */; };
 		84CB1A55210E450C00BD5726 /* Moon Flower Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */; };
+		84F239DB2119CFBE000ACC78 /* A - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239D42119CFBE000ACC78 /* A - Clean.mp3 */; };
+		84F239DC2119CFBE000ACC78 /* F - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239D52119CFBE000ACC78 /* F - Clean.mp3 */; };
+		84F239DD2119CFBE000ACC78 /* E - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239D62119CFBE000ACC78 /* E - Clean.mp3 */; };
+		84F239DE2119CFBE000ACC78 /* G - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239D72119CFBE000ACC78 /* G - Clean.mp3 */; };
+		84F239DF2119CFBE000ACC78 /* D - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239D82119CFBE000ACC78 /* D - Clean.mp3 */; };
+		84F239E02119CFBE000ACC78 /* C - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239D92119CFBE000ACC78 /* C - Clean.mp3 */; };
+		84F239E12119CFBE000ACC78 /* B - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F239DA2119CFBE000ACC78 /* B - Clean.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,13 +47,6 @@
 		84721CE920F968AD00BD0D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84721CEB20F968AF00BD0D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84721CF020F968AF00BD0D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8484ADBC211063F000C9CEE6 /* G - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/G - Clean.mp3"; sourceTree = "<group>"; };
-		8484ADBD211063F000C9CEE6 /* F - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/F - Clean.mp3"; sourceTree = "<group>"; };
-		8484ADBE211063F000C9CEE6 /* E - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/E - Clean.mp3"; sourceTree = "<group>"; };
-		8484ADBF211063F000C9CEE6 /* A - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/A - Clean.mp3"; sourceTree = "<group>"; };
-		8484ADC0211063F000C9CEE6 /* D - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/D - Clean.mp3"; sourceTree = "<group>"; };
-		8484ADC1211063F000C9CEE6 /* C - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/C - Clean.mp3"; sourceTree = "<group>"; };
-		8484ADC2211063F000C9CEE6 /* B - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "B - Clean.mp3"; path = "../../../../../../../../../Desktop/Notes - Atualizado/Maiores/B - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADCA211069DC00C9CEE6 /* A# - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A# - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADCB211069DC00C9CEE6 /* F# - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F# - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADCC211069DC00C9CEE6 /* C# - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C# - Clean.mp3"; sourceTree = "<group>"; };
@@ -74,6 +67,13 @@
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
 		84CA160B210E7C9000462F0D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Is Loh/Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower Bold.ttf"; sourceTree = "<group>"; };
+		84F239D42119CFBE000ACC78 /* A - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A - Clean.mp3"; path = "../../../Acordes/Maiores/A - Clean.mp3"; sourceTree = "<group>"; };
+		84F239D52119CFBE000ACC78 /* F - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F - Clean.mp3"; path = "../../../Acordes/Maiores/F - Clean.mp3"; sourceTree = "<group>"; };
+		84F239D62119CFBE000ACC78 /* E - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E - Clean.mp3"; path = "../../../Acordes/Maiores/E - Clean.mp3"; sourceTree = "<group>"; };
+		84F239D72119CFBE000ACC78 /* G - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G - Clean.mp3"; path = "../../../Acordes/Maiores/G - Clean.mp3"; sourceTree = "<group>"; };
+		84F239D82119CFBE000ACC78 /* D - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D - Clean.mp3"; path = "../../../Acordes/Maiores/D - Clean.mp3"; sourceTree = "<group>"; };
+		84F239D92119CFBE000ACC78 /* C - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C - Clean.mp3"; path = "../../../Acordes/Maiores/C - Clean.mp3"; sourceTree = "<group>"; };
+		84F239DA2119CFBE000ACC78 /* B - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "B - Clean.mp3"; path = "../../../Acordes/Maiores/B - Clean.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,13 +130,13 @@
 		84D5C84F20FA9F4D0050B588 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
-				8484ADBF211063F000C9CEE6 /* A - Clean.mp3 */,
-				8484ADC2211063F000C9CEE6 /* B - Clean.mp3 */,
-				8484ADC1211063F000C9CEE6 /* C - Clean.mp3 */,
-				8484ADC0211063F000C9CEE6 /* D - Clean.mp3 */,
-				8484ADBE211063F000C9CEE6 /* E - Clean.mp3 */,
-				8484ADBD211063F000C9CEE6 /* F - Clean.mp3 */,
-				8484ADBC211063F000C9CEE6 /* G - Clean.mp3 */,
+				84F239D42119CFBE000ACC78 /* A - Clean.mp3 */,
+				84F239DA2119CFBE000ACC78 /* B - Clean.mp3 */,
+				84F239D92119CFBE000ACC78 /* C - Clean.mp3 */,
+				84F239D82119CFBE000ACC78 /* D - Clean.mp3 */,
+				84F239D62119CFBE000ACC78 /* E - Clean.mp3 */,
+				84F239D52119CFBE000ACC78 /* F - Clean.mp3 */,
+				84F239D72119CFBE000ACC78 /* G - Clean.mp3 */,
 				8484ADCA211069DC00C9CEE6 /* A# - Clean.mp3 */,
 				8484ADCC211069DC00C9CEE6 /* C# - Clean.mp3 */,
 				8484ADCE211069DC00C9CEE6 /* D# - Clean.mp3 */,
@@ -219,29 +219,29 @@
 				8484ADDD21106DFF00C9CEE6 /* Cm - Clean.mp3 in Resources */,
 				8484ADE92110711C00C9CEE6 /* F#m - Clean.mp3 in Resources */,
 				8484ADCF211069DC00C9CEE6 /* A# - Clean.mp3 in Resources */,
-				8484ADC5211063F000C9CEE6 /* E - Clean.mp3 in Resources */,
+				84F239DF2119CFBE000ACC78 /* D - Clean.mp3 in Resources */,
 				8484ADDE21106DFF00C9CEE6 /* Bm - Clean.mp3 in Resources */,
 				84CB1A55210E450C00BD5726 /* Moon Flower Bold.ttf in Resources */,
 				8484ADD3211069DC00C9CEE6 /* D# - Clean.mp3 in Resources */,
-				8484ADC8211063F000C9CEE6 /* C - Clean.mp3 in Resources */,
 				8484ADE121106DFF00C9CEE6 /* Dm - Clean.mp3 in Resources */,
 				8484ADDC21106DFF00C9CEE6 /* Fm - Clean.mp3 in Resources */,
+				84F239DE2119CFBE000ACC78 /* G - Clean.mp3 in Resources */,
+				84F239DD2119CFBE000ACC78 /* E - Clean.mp3 in Resources */,
 				8484ADE72110711C00C9CEE6 /* D#m - Clean.mp3 in Resources */,
 				8484ADDF21106DFF00C9CEE6 /* Gm - Clean.mp3 in Resources */,
 				8484ADDB21106DFF00C9CEE6 /* Em - Clean.mp3 in Resources */,
-				8484ADC4211063F000C9CEE6 /* F - Clean.mp3 in Resources */,
+				84F239E02119CFBE000ACC78 /* C - Clean.mp3 in Resources */,
 				84721CEC20F968AF00BD0D63 /* Assets.xcassets in Resources */,
 				8484ADEA2110711D00C9CEE6 /* C#m - Clean.mp3 in Resources */,
+				84F239DC2119CFBE000ACC78 /* F - Clean.mp3 in Resources */,
 				8484ADE021106DFF00C9CEE6 /* Am - Clean.mp3 in Resources */,
-				8484ADC7211063F000C9CEE6 /* D - Clean.mp3 in Resources */,
 				8484ADE82110711C00C9CEE6 /* A#m - Clean.mp3 in Resources */,
-				8484ADC6211063F000C9CEE6 /* A - Clean.mp3 in Resources */,
 				84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */,
 				8484ADD0211069DC00C9CEE6 /* F# - Clean.mp3 in Resources */,
 				8484ADD1211069DC00C9CEE6 /* C# - Clean.mp3 in Resources */,
-				8484ADC9211063F000C9CEE6 /* B - Clean.mp3 in Resources */,
+				84F239DB2119CFBE000ACC78 /* A - Clean.mp3 in Resources */,
 				8484ADEB2110711D00C9CEE6 /* G#m - Clean.mp3 in Resources */,
-				8484ADC3211063F000C9CEE6 /* G - Clean.mp3 in Resources */,
+				84F239E12119CFBE000ACC78 /* B - Clean.mp3 in Resources */,
 				84721CEA20F968AD00BD0D63 /* Main.storyboard in Resources */,
 				8484ADD2211069DC00C9CEE6 /* G# - Clean.mp3 in Resources */,
 			);
