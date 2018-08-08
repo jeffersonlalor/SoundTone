@@ -88,7 +88,7 @@ class ViewController: UIViewController {
     var numberFile: Int = 0
     var indexOptions: [Int] = []
     var copyIndexOptions: [Int] = []
-    var isSelectButton: [Bool] = [false, false, false, false]
+    var isSelectButton: [Bool?] = [false, false, false, false]
 
 
 //Funções
@@ -170,7 +170,7 @@ class ViewController: UIViewController {
     }
 
     func updateButtons(){
-        if isSelectButton[0] {
+        if isSelectButton[0]! {
             applyDesignButtonSelected(button: btn_option01)
             if btn_option02 != nil {
                 applyDesignButtonDefault(button: btn_option02)
@@ -181,7 +181,7 @@ class ViewController: UIViewController {
             if btn_option04 != nil {
                 applyDesignButtonDefault(button: btn_option04)
             }
-        }else if isSelectButton[1] {
+        }else if isSelectButton[1]! {
             applyDesignButtonSelected(button: btn_option02)
             if btn_option01 != nil {
                 applyDesignButtonDefault(button: btn_option01)
@@ -192,7 +192,7 @@ class ViewController: UIViewController {
             if btn_option04 != nil {
                 applyDesignButtonDefault(button: btn_option04)
             }
-        }else if isSelectButton[2] {
+        }else if isSelectButton[2]! {
             applyDesignButtonSelected(button: btn_option03)
             if btn_option01 != nil {
                 applyDesignButtonDefault(button: btn_option01)
@@ -203,7 +203,7 @@ class ViewController: UIViewController {
             if btn_option04 != nil {
                 applyDesignButtonDefault(button: btn_option04)
             }
-        }else if isSelectButton[3] {
+        }else if isSelectButton[3]! {
             applyDesignButtonSelected(button: btn_option04)
             if btn_option01 != nil {
                 applyDesignButtonDefault(button: btn_option01)
@@ -399,12 +399,16 @@ class ViewController: UIViewController {
                 if index != copyIndexOptions[0] && index != copyIndexOptions[1] {
                     if indexOptions[0] == index {
                         applyDesignButtonDesabled(button: btn_option01)
+                        isSelectButton[0] = nil
                     } else if indexOptions[1] == index {
                         applyDesignButtonDesabled(button: btn_option02)
+                        isSelectButton[1] = nil
                     } else if indexOptions[2] == index {
                         applyDesignButtonDesabled(button: btn_option03)
+                        isSelectButton[2] = nil
                     } else if indexOptions[3] == index {
                         applyDesignButtonDesabled(button: btn_option04)
+                        isSelectButton[3] = nil
                     }
                 }
             }
@@ -459,7 +463,7 @@ class ViewController: UIViewController {
     
     @IBAction func checkAnswer(_ sender: Any) {
         if !errorAudio {
-            if isSelectButton[0] {
+            if isSelectButton[0]! {
                 if option01.text == music[numberFile].cifra {
                     alertMessage(title: "Congratulations!", message: "Right answer.")
                     updateScore()
@@ -472,7 +476,7 @@ class ViewController: UIViewController {
                         startNewRound()
                     }
                 }
-            }else if isSelectButton[1] {
+            }else if isSelectButton[1]! {
                 if option02.text == music[numberFile].cifra {
                     alertMessage(title: "Congratulations!", message: "Right answer.")
                     updateScore()
@@ -485,7 +489,7 @@ class ViewController: UIViewController {
                         startNewRound()
                     }
                 }
-            }else if isSelectButton[2] {
+            }else if isSelectButton[2]! {
                 if option03.text == music[numberFile].cifra {
                     alertMessage(title: "Congratulations!", message: "Right answer.")
                     updateScore()
@@ -498,7 +502,7 @@ class ViewController: UIViewController {
                         startNewRound()
                     }
                 }
-            }else if isSelectButton[3] {
+            }else if isSelectButton[3]! {
                 if option04.text == music[numberFile].cifra {
                     alertMessage(title: "Congratulations!", message: "Right answer.")
                     updateScore()
