@@ -169,54 +169,49 @@ class ViewController: UIViewController {
         button.isEnabled = false
     }
 
-    func updateButtons(){
-        
-        if isSelectButton[0] != nil {
-            
-        }
-        
-        if isSelectButton[0]! {
+    func updateButtons(numberButton: Int){
+        if numberButton == 1 {
             applyDesignButtonSelected(button: btn_option01)
-            if btn_option02 != nil {
+            if isSelectButton[1] != nil {
                 applyDesignButtonDefault(button: btn_option02)
             }
-            if btn_option03 != nil {
+            if isSelectButton[2] != nil {
                 applyDesignButtonDefault(button: btn_option03)
             }
-            if btn_option04 != nil {
+            if isSelectButton[3] != nil {
                 applyDesignButtonDefault(button: btn_option04)
             }
-        }else if isSelectButton[1]! {
+        }else if numberButton == 2 {
             applyDesignButtonSelected(button: btn_option02)
-            if btn_option01 != nil {
+            if isSelectButton[0] != nil {
                 applyDesignButtonDefault(button: btn_option01)
             }
-            if btn_option03 != nil {
+            if isSelectButton[2] != nil {
                 applyDesignButtonDefault(button: btn_option03)
             }
-            if btn_option04 != nil {
+            if isSelectButton[3] != nil {
                 applyDesignButtonDefault(button: btn_option04)
             }
-        }else if isSelectButton[2]! {
+        }else if numberButton == 3 {
             applyDesignButtonSelected(button: btn_option03)
-            if btn_option01 != nil {
+            if isSelectButton[0] != nil {
                 applyDesignButtonDefault(button: btn_option01)
             }
-            if btn_option02 != nil {
+            if isSelectButton[1] != nil {
                 applyDesignButtonDefault(button: btn_option02)
             }
-            if btn_option04 != nil {
+            if isSelectButton[3] != nil {
                 applyDesignButtonDefault(button: btn_option04)
             }
-        }else if isSelectButton[3]! {
+        }else if numberButton == 4 {
             applyDesignButtonSelected(button: btn_option04)
-            if btn_option01 != nil {
+            if isSelectButton[0] != nil {
                 applyDesignButtonDefault(button: btn_option01)
             }
-            if btn_option02 != nil {
+            if isSelectButton[1] != nil {
                 applyDesignButtonDefault(button: btn_option02)
             }
-            if btn_option03 != nil {
+            if isSelectButton[2] != nil {
                 applyDesignButtonDefault(button: btn_option03)
             }
         }
@@ -251,6 +246,10 @@ class ViewController: UIViewController {
         numberTry = 0
         errorAudio = false
         errouKingMode = false
+        isSelectButton[0] = false
+        isSelectButton[1] = false
+        isSelectButton[2] = false
+        isSelectButton[3] = false
     }
 
     func updateScore(){
@@ -340,7 +339,7 @@ class ViewController: UIViewController {
             if isSelectButton[3] != nil {
                 isSelectButton[3] = false
             }
-            updateButtons()
+            updateButtons(numberButton: 1)
             voiceSiri(text: music[indexOptions[0]].chordeName)
         }
     }
@@ -358,7 +357,7 @@ class ViewController: UIViewController {
             if isSelectButton[3] != nil {
                 isSelectButton[3] = false
             }
-            updateButtons()
+            updateButtons(numberButton: 2)
             voiceSiri(text: music[indexOptions[1]].chordeName)
         }
     }
@@ -376,7 +375,7 @@ class ViewController: UIViewController {
             if isSelectButton[3] != nil {
                 isSelectButton[3] = false
             }
-            updateButtons()
+            updateButtons(numberButton: 3)
             voiceSiri(text: music[indexOptions[2]].chordeName)
         }
     }
@@ -394,7 +393,7 @@ class ViewController: UIViewController {
             if isSelectButton[2] != nil {
                 isSelectButton[2] = false
             }
-            updateButtons()
+            updateButtons(numberButton: 4)
             voiceSiri(text: music[indexOptions[3]].chordeName)
         }
     }
