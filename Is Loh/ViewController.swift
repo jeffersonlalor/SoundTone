@@ -170,6 +170,11 @@ class ViewController: UIViewController {
     }
 
     func updateButtons(){
+        
+        if isSelectButton[0] != nil {
+            
+        }
+        
         if isSelectButton[0]! {
             applyDesignButtonSelected(button: btn_option01)
             if btn_option02 != nil {
@@ -325,9 +330,16 @@ class ViewController: UIViewController {
     @IBAction func selectButton01(_ sender: Any) {
         if btn_option01.isEnabled {
             isSelectButton[0] = true
-            isSelectButton[1] = false
-            isSelectButton[2] = false
-            isSelectButton[3] = false
+            
+            if isSelectButton[1] != nil {
+                isSelectButton[1] = false
+            }
+            if isSelectButton[2] != nil {
+                isSelectButton[2] = false
+            }
+            if isSelectButton[3] != nil {
+                isSelectButton[3] = false
+            }
             updateButtons()
             voiceSiri(text: music[indexOptions[0]].chordeName)
         }
@@ -335,10 +347,17 @@ class ViewController: UIViewController {
 
     @IBAction func selectButton02(_ sender: Any) {
         if btn_option02.isEnabled {
-            isSelectButton[0] = false
             isSelectButton[1] = true
-            isSelectButton[2] = false
-            isSelectButton[3] = false
+            
+            if isSelectButton[0] != nil {
+                isSelectButton[0] = false
+            }
+            if isSelectButton[2] != nil {
+                isSelectButton[2] = false
+            }
+            if isSelectButton[3] != nil {
+                isSelectButton[3] = false
+            }
             updateButtons()
             voiceSiri(text: music[indexOptions[1]].chordeName)
         }
@@ -346,10 +365,17 @@ class ViewController: UIViewController {
 
     @IBAction func selectButton03(_ sender: Any) {
         if btn_option03.isEnabled {
-            isSelectButton[0] = false
-            isSelectButton[1] = false
             isSelectButton[2] = true
-            isSelectButton[3] = false
+            
+            if isSelectButton[0] != nil {
+                isSelectButton[0] = false
+            }
+            if isSelectButton[1] != nil {
+                isSelectButton[1] = false
+            }
+            if isSelectButton[3] != nil {
+                isSelectButton[3] = false
+            }
             updateButtons()
             voiceSiri(text: music[indexOptions[2]].chordeName)
         }
@@ -357,10 +383,17 @@ class ViewController: UIViewController {
 
     @IBAction func selectButton04(_ sender: Any) {
         if btn_option04.isEnabled {
-            isSelectButton[0] = false
-            isSelectButton[1] = false
-            isSelectButton[2] = false
             isSelectButton[3] = true
+            
+            if isSelectButton[0] != nil {
+                isSelectButton[0] = false
+            }
+            if isSelectButton[1] != nil {
+                isSelectButton[1] = false
+            }
+            if isSelectButton[2] != nil {
+                isSelectButton[2] = false
+            }
             updateButtons()
             voiceSiri(text: music[indexOptions[3]].chordeName)
         }
