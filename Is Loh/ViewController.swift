@@ -314,7 +314,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbl_time: UILabel!
     @IBOutlet weak var btn_kingMode: UIButton!
     
-
+    
 //Actions
     @IBAction func playSound(_ sender: Any) {
         prepareMusic()
@@ -495,59 +495,29 @@ class ViewController: UIViewController {
     
     @IBAction func checkAnswer(_ sender: Any) {
         if !errorAudio {
-            if isSelectButton[0]! {
-                if option01.text == music[numberFile].cifra {
-                    alertMessage(title: "Congratulations!", message: "Right answer.")
-                    updateScore()
-                    startNewRound()
-                }else{
-                    alertMessage(title: "Ops!", message: "Incorrect answer.")
-                    numberTry += 1
-                    if isKingMode {
-                        errouKingMode = true
-                        startNewRound()
+            let options: [UILabel?] = [option01, option02, option03, option04]
+            var i: Int = 0
+            
+            for option in options {
+                if isSelectButton[i] != nil {
+                    if isSelectButton[i]! {
+                        if option!.text == music[numberFile].cifra {
+                            alertMessage(title: "Congratulations!", message: "Right answer.")
+                            updateScore()
+                            startNewRound()
+                        }else{
+                            alertMessage(title: "Ops!", message: "Incorrect answer.")
+                            numberTry += 1
+                            if isKingMode {
+                                errouKingMode = true
+                                startNewRound()
+                            }
+                        }
                     }
                 }
-            }else if isSelectButton[1]! {
-                if option02.text == music[numberFile].cifra {
-                    alertMessage(title: "Congratulations!", message: "Right answer.")
-                    updateScore()
-                    startNewRound()
-                }else{
-                    alertMessage(title: "Ops!", message: "Incorrect answer.")
-                    numberTry += 1
-                    if isKingMode {
-                        errouKingMode = true
-                        startNewRound()
-                    }
-                }
-            }else if isSelectButton[2]! {
-                if option03.text == music[numberFile].cifra {
-                    alertMessage(title: "Congratulations!", message: "Right answer.")
-                    updateScore()
-                    startNewRound()
-                }else{
-                    alertMessage(title: "Ops!", message: "Incorrect answer.")
-                    numberTry += 1
-                    if isKingMode {
-                        errouKingMode = true
-                        startNewRound()
-                    }
-                }
-            }else if isSelectButton[3]! {
-                if option04.text == music[numberFile].cifra {
-                    alertMessage(title: "Congratulations!", message: "Right answer.")
-                    updateScore()
-                    startNewRound()
-                }else{
-                    alertMessage(title: "Ops!", message: "Incorrect answer.")
-                    numberTry += 1
-                    if isKingMode {
-                        errouKingMode = true
-                        startNewRound()
-                    }
-                }
+                i+=1
             }
+            
         }else{
             alertMessage(title: "Error", message: "Audio file error. \nNo possibility of verification!")
         }
