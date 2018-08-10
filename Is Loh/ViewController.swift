@@ -12,7 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
 
 
-//Variáveis
+//Variables
     struct Songs{
         let nameFile: String
         let cifra: String
@@ -52,13 +52,13 @@ class ViewController: UIViewController {
          Songs(nameFile: "Db - Clean", cifra: "Db", chordeName: "Ré bemol"),
          Songs(nameFile: "Eb - Clean", cifra: "Eb", chordeName: "Mí bemol"),
          Songs(nameFile: "Gb - Clean", cifra: "Gb", chordeName: "Sol bemol"),
-
+         
          Songs(nameFile: "Abm - Clean", cifra: "Abm", chordeName: "Lá bemol menor"),
          Songs(nameFile: "Bbm - Clean", cifra: "Bbm", chordeName: "Sí bemol menor"),
          Songs(nameFile: "Dbm - Clean", cifra: "Dbm", chordeName: "Ré bemol menor"),
          Songs(nameFile: "Ebm - Clean", cifra: "Ebm", chordeName: "Mí bemol menor"),
          Songs(nameFile: "Gbm - Clean", cifra: "Gbm", chordeName: "Sol bemol menor"),
-
+         
          */
     ]
     
@@ -91,7 +91,7 @@ class ViewController: UIViewController {
     var isSelectButton: [Bool?] = [false, false, false, false]
 
 
-//Funções
+//Functions
     func loadNumberFile(){
         let qtMusics: Int = music.count
         numberFile = Int( arc4random_uniform(UInt32(qtMusics)) )
@@ -562,7 +562,6 @@ class ViewController: UIViewController {
 /*
     Correções
  
-    Bug no remover opções ao selecionar alguma
     Adicionar som dos bemois e preparar o código para não haver conflitos
     Mudar layout no King Mode
     Indicar quantas tentativas o jogador tem
@@ -573,6 +572,7 @@ class ViewController: UIViewController {
 /*
     For future
  
+    Repensar nas telas junto aos planos para o futuro
     Auto layout
     Ranking
     Conexão com redes sociais
