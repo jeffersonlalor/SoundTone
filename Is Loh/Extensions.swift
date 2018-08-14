@@ -12,7 +12,7 @@ import UIKit
 extension UIColor {
     
     static let disableGray = UIColor().colorFromHex("2D2E2E")
-    static let letterDisableGray = UIColor().colorFromHex("444A52")
+    static let letterDisableGray = UIColor().colorFromHex("424242")
     static let buttonGreen = UIColor().colorFromHex("24D89C")
     
     func colorFromHex(_ hex: String ) -> UIColor {

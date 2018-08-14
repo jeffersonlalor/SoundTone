@@ -474,7 +474,7 @@ class ViewController: UIViewController {
             //voltar layout para cores default
             timer.invalidate()
             lbl_messageTime.text = "Hit the chord"
-            lbl_time.text = "- Beginner -"
+            lbl_time.text = "-"
             btn_cancelTwoOptions.isEnabled = false
             if numberCancelOptions != 3 {
                 btn_cancelTwoOptions.isEnabled = true
@@ -537,7 +537,7 @@ class ViewController: UIViewController {
         btn_kingMode.isEnabled = true
         timer.invalidate()
         lbl_messageTime.text = "Hit the chord"
-        lbl_time.text = "- Beginner -"
+        lbl_time.text = "-"
     }
 
     @IBAction func informationGame(_ sender: Any) {
