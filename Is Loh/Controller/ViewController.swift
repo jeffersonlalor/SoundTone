@@ -536,6 +536,7 @@ class ViewController: UIViewController {
         btn_cancelTwoOptions.isEnabled = true
         btn_kingMode.isEnabled = true
         timer.invalidate()
+        time = 30
         lbl_messageTime.text = "Hit the chord"
         lbl_time.text = "-"
     }
