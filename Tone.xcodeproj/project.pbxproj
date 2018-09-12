@@ -28,6 +28,7 @@
 		8484ADE92110711C00C9CEE6 /* F#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE42110711C00C9CEE6 /* F#m - Clean.mp3 */; };
 		8484ADEA2110711D00C9CEE6 /* C#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE52110711C00C9CEE6 /* C#m - Clean.mp3 */; };
 		8484ADEB2110711D00C9CEE6 /* G#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE62110711C00C9CEE6 /* G#m - Clean.mp3 */; };
+		84A2134C21493E940019C616 /* Neue Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A2134B21493E940019C616 /* Neue Regular.ttf */; };
 		84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B0716720FE22E3002B03DF /* Starlight Personal.ttf */; };
 		84CA160C210E7C9000462F0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA160B210E7C9000462F0D /* Extensions.swift */; };
 		84CB1A55210E450C00BD5726 /* Moon Flower Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */; };
@@ -39,9 +40,6 @@
 		84D7B85F213D88A30063D890 /* G - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D7B858213D88A30063D890 /* G - Clean.mp3 */; };
 		84D7B860213D88A30063D890 /* A - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84D7B859213D88A30063D890 /* A - Clean.mp3 */; };
 		84FA1BB6213FD44600831B46 /* Amethyst.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1BB5213FD44600831B46 /* Amethyst.ttf */; };
-		84FA1BB8213FD75D00831B46 /* Musicografi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1BB7213FD75D00831B46 /* Musicografi.ttf */; };
-		84FA1BBA213FD80E00831B46 /* Duration.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1BB9213FD80D00831B46 /* Duration.ttf */; };
-		84FA1BBC214037E700831B46 /* oldies cartoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84FA1BBB214037E700831B46 /* oldies cartoon.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +66,7 @@
 		8484ADE42110711C00C9CEE6 /* F#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#m - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADE52110711C00C9CEE6 /* C#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#m - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADE62110711C00C9CEE6 /* G#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#m - Clean.mp3"; sourceTree = "<group>"; };
+		84A2134B21493E940019C616 /* Neue Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neue Regular.ttf"; sourceTree = "<group>"; };
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
 		84CA160B210E7C9000462F0D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Is Loh/Controller/Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Moon Flower Bold.ttf"; sourceTree = "<group>"; };
@@ -79,9 +78,6 @@
 		84D7B858213D88A30063D890 /* G - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G - Clean.mp3"; path = "../../../../Acordes/Maiores/G - Clean.mp3"; sourceTree = "<group>"; };
 		84D7B859213D88A30063D890 /* A - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A - Clean.mp3"; path = "../../../../Acordes/Maiores/A - Clean.mp3"; sourceTree = "<group>"; };
 		84FA1BB5213FD44600831B46 /* Amethyst.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amethyst.ttf; sourceTree = "<group>"; };
-		84FA1BB7213FD75D00831B46 /* Musicografi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Musicografi.ttf; sourceTree = "<group>"; };
-		84FA1BB9213FD80D00831B46 /* Duration.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Duration.ttf; sourceTree = "<group>"; };
-		84FA1BBB214037E700831B46 /* oldies cartoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oldies cartoon.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +125,7 @@
 				84B0716720FE22E3002B03DF /* Starlight Personal.ttf */,
 				84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */,
 				84FA1BB5213FD44600831B46 /* Amethyst.ttf */,
-				84FA1BB7213FD75D00831B46 /* Musicografi.ttf */,
-				84FA1BBB214037E700831B46 /* oldies cartoon.ttf */,
-				84FA1BB9213FD80D00831B46 /* Duration.ttf */,
+				84A2134B21493E940019C616 /* Neue Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -257,7 +251,6 @@
 				8484ADDD21106DFF00C9CEE6 /* Cm - Clean.mp3 in Resources */,
 				8484ADE92110711C00C9CEE6 /* F#m - Clean.mp3 in Resources */,
 				8484ADCF211069DC00C9CEE6 /* A# - Clean.mp3 in Resources */,
-				84FA1BBC214037E700831B46 /* oldies cartoon.ttf in Resources */,
 				84D7B860213D88A30063D890 /* A - Clean.mp3 in Resources */,
 				8484ADDE21106DFF00C9CEE6 /* Bm - Clean.mp3 in Resources */,
 				84CB1A55210E450C00BD5726 /* Moon Flower Bold.ttf in Resources */,
@@ -270,12 +263,11 @@
 				84721CEC20F968AF00BD0D63 /* Assets.xcassets in Resources */,
 				8484ADEA2110711D00C9CEE6 /* C#m - Clean.mp3 in Resources */,
 				84D7B85C213D88A30063D890 /* C - Clean.mp3 in Resources */,
-				84FA1BB8213FD75D00831B46 /* Musicografi.ttf in Resources */,
 				84D7B85A213D88A30063D890 /* F - Clean.mp3 in Resources */,
 				84D7B85E213D88A30063D890 /* E - Clean.mp3 in Resources */,
 				84FA1BB6213FD44600831B46 /* Amethyst.ttf in Resources */,
-				84FA1BBA213FD80E00831B46 /* Duration.ttf in Resources */,
 				8484ADE021106DFF00C9CEE6 /* Am - Clean.mp3 in Resources */,
+				84A2134C21493E940019C616 /* Neue Regular.ttf in Resources */,
 				8484ADE82110711C00C9CEE6 /* A#m - Clean.mp3 in Resources */,
 				84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */,
 				8484ADD0211069DC00C9CEE6 /* F# - Clean.mp3 in Resources */,
