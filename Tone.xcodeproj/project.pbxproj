@@ -28,6 +28,7 @@
 		8484ADE92110711C00C9CEE6 /* F#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE42110711C00C9CEE6 /* F#m - Clean.mp3 */; };
 		8484ADEA2110711D00C9CEE6 /* C#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE52110711C00C9CEE6 /* C#m - Clean.mp3 */; };
 		8484ADEB2110711D00C9CEE6 /* G#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE62110711C00C9CEE6 /* G#m - Clean.mp3 */; };
+		849E3B31214945AE004DD9CD /* BEBAS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849E3B30214945AE004DD9CD /* BEBAS.ttf */; };
 		84A2134C21493E940019C616 /* Neue Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A2134B21493E940019C616 /* Neue Regular.ttf */; };
 		84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B0716720FE22E3002B03DF /* Starlight Personal.ttf */; };
 		84CA160C210E7C9000462F0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA160B210E7C9000462F0D /* Extensions.swift */; };
@@ -66,6 +67,7 @@
 		8484ADE42110711C00C9CEE6 /* F#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#m - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADE52110711C00C9CEE6 /* C#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#m - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADE62110711C00C9CEE6 /* G#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#m - Clean.mp3"; sourceTree = "<group>"; };
+		849E3B30214945AE004DD9CD /* BEBAS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.ttf; sourceTree = "<group>"; };
 		84A2134B21493E940019C616 /* Neue Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neue Regular.ttf"; sourceTree = "<group>"; };
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
 		84CA160B210E7C9000462F0D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Is Loh/Controller/Extensions.swift"; sourceTree = SOURCE_ROOT; };
@@ -126,6 +128,7 @@
 				84CB1A54210E450C00BD5726 /* Moon Flower Bold.ttf */,
 				84FA1BB5213FD44600831B46 /* Amethyst.ttf */,
 				84A2134B21493E940019C616 /* Neue Regular.ttf */,
+				849E3B30214945AE004DD9CD /* BEBAS.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */,
 				8484ADD0211069DC00C9CEE6 /* F# - Clean.mp3 in Resources */,
 				8484ADD1211069DC00C9CEE6 /* C# - Clean.mp3 in Resources */,
+				849E3B31214945AE004DD9CD /* BEBAS.ttf in Resources */,
 				84D7B85D213D88A30063D890 /* B - Clean.mp3 in Resources */,
 				84D7B85F213D88A30063D890 /* G - Clean.mp3 in Resources */,
 				8484ADEB2110711D00C9CEE6 /* G#m - Clean.mp3 in Resources */,
