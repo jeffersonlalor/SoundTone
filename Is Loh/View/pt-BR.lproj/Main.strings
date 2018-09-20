@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "-"; ObjectID = "1Ng-IW-O2K"; */
+"1Ng-IW-O2K.text" = "-";
+
+/* Class = "UILabel"; text = "Score: 999"; ObjectID = "8Xn-bM-9DY"; */
+"8Xn-bM-9DY.text" = "Score: 999";
+
+/* Class = "UILabel"; text = "Touch here!"; ObjectID = "DZS-tY-eIK"; */
+"DZS-tY-eIK.text" = "Touch here!";
+
+/* Class = "UILabel"; text = "Op02"; ObjectID = "Pcm-gU-anf"; */
+"Pcm-gU-anf.text" = "Op02";
+
+/* Class = "UILabel"; text = "Hit the chord"; ObjectID = "RTP-ov-OBu"; */
+"RTP-ov-OBu.text" = "Hit the chord";
+
+/* Class = "UILabel"; text = "Op03"; ObjectID = "Ukg-8Q-ek3"; */
+"Ukg-8Q-ek3.text" = "Op03";
+
+/* Class = "UILabel"; text = "Op04"; ObjectID = "XR2-Cj-Xjr"; */
+"XR2-Cj-Xjr.text" = "Op04";
+
+/* Class = "UIButton"; normalTitle = "Check"; ObjectID = "aYc-xX-4qe"; */
+"aYc-xX-4qe.normalTitle" = "Check";
+
+/* Class = "UILabel"; text = "Round: 999"; ObjectID = "bpm-Nu-bEH"; */
+"bpm-Nu-bEH.text" = "Round: 999";
+
+/* Class = "UILabel"; text = "Op01"; ObjectID = "qFF-XA-ZG4"; */
+"qFF-XA-ZG4.text" = "Op01";

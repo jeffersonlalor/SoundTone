@@ -67,7 +67,7 @@ class ViewController: UIViewController {
     var errorAudio: Bool = false
     
     //Voice Siri
-    let voice = AVSpeechSynthesisVoice(language: "pt-br")
+    let voice = AVSpeechSynthesisVoice(language: NSLocalizedString("en-us", comment: "Traduzir para pt-br"))
     let spk = AVSpeechSynthesizer()
 
     //Time variable
@@ -107,11 +107,11 @@ class ViewController: UIViewController {
                 player.prepareToPlay()
             }catch{
                 errorAudio = true
-                alertMessage(title: "Error", message: "Error executing audio!")
+                alertMessage(title: NSLocalizedString("Error", comment: "Mensagem curta de erro"), message: NSLocalizedString("Error executing audio!", comment: "Mensagem informando erro na execução do áudio."))
             }
         }else{
             errorAudio = true
-            alertMessage(title: "Error", message: "Audio file not found!")
+            alertMessage(title: NSLocalizedString("Error", comment: "Mensagem curta informando erro"), message: NSLocalizedString("Audio file not found!", comment: "Tradução curta informando erro no audio."))
         }
     }
 
@@ -241,8 +241,8 @@ class ViewController: UIViewController {
         applyDesignButtonDefault(button: btn_option04)
         
         round += 1
-        numberRounds.text = "Round: \(round)"
-        score.text = "Score: \(ponctuation)"
+        numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), round)
+        score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), ponctuation)
         numberTry = 0
         errorAudio = false
         errouKingMode = false
@@ -410,8 +410,8 @@ class ViewController: UIViewController {
             applyDesignButtonDefault(button: btn_option03)
             applyDesignButtonDefault(button: btn_option04)
             
-            numberRounds.text = "Round: \(round)"
-            score.text = "Score: \(ponctuation)"
+            numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), round)
+            score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), ponctuation)
             numberTry = 0
             errorAudio = false
             numberPassRound += 1
@@ -460,7 +460,7 @@ class ViewController: UIViewController {
             btn_kingMode.isEnabled = false
             //função para mudar as cores do layout do kingMode
             numberKingMode += 1
-            lbl_messageTime.text = "KING MODE"
+            lbl_messageTime.text = NSLocalizedString("KING MODE", comment: "Frase curta em maiúsculo indicando o modo de jogo rei.")
             lbl_time.text = "\(time)"
             timer = Timer.scheduledTimer(timeInterval: 1, target: self,
                                          selector: #selector(ViewController.action), userInfo: nil, repeats: true)
@@ -473,7 +473,7 @@ class ViewController: UIViewController {
         }else{
             //voltar layout para cores default
             timer.invalidate()
-            lbl_messageTime.text = "Hit the chord"
+            lbl_messageTime.text = NSLocalizedString("Hit the chord", comment: "Frase curta indicando que o usuário deve acertar o acorde.")
             lbl_time.text = "-"
             btn_cancelTwoOptions.isEnabled = false
             if numberCancelOptions != 3 {
@@ -502,11 +502,11 @@ class ViewController: UIViewController {
                 if isSelectButton[i] != nil {
                     if isSelectButton[i]! {
                         if option!.text == music[numberFile].cifra {
-                            alertMessage(title: "Congratulations!", message: "Right answer.")
+                            alertMessage(title: NSLocalizedString("Congratulations!", comment: "Mensagem de felicidade, acerto. Tem que ser curta."), message: NSLocalizedString("Right answer.", comment: "Frase curta para resposta correta."))
                             updateScore()
                             startNewRound()
                         }else{
-                            alertMessage(title: "Ops!", message: "Incorrect answer.")
+                            alertMessage(title: "Ops!", message: NSLocalizedString("Incorrect answer.", comment: "Frase curta para resposta incorreta."))
                             numberTry += 1
                             if isKingMode {
                                 errouKingMode = true
@@ -519,7 +519,7 @@ class ViewController: UIViewController {
             }
             
         }else{
-            alertMessage(title: "Error", message: "Audio file error. \nNo possibility of verification!")
+            alertMessage(title: NSLocalizedString("Error", comment: "Frase curta de erro"), message: NSLocalizedString("Audio file error. \nNo possibility of verification!", comment: "Frases curtas especificando o erro."))
         }
     }
 
@@ -531,18 +531,18 @@ class ViewController: UIViewController {
         numberCancelOptions = 0
         numberKingMode = 0
         startNewRound()
-        touch.text = "Touch here!"
+        touch.text = NSLocalizedString("Touch here!", comment: "Frase curta")
         btn_passRound.isEnabled = true
         btn_cancelTwoOptions.isEnabled = true
         btn_kingMode.isEnabled = true
         timer.invalidate()
         time = 30
-        lbl_messageTime.text = "Hit the chord"
+        lbl_messageTime.text = NSLocalizedString("Hit the chord", comment: "Frase curta")
         lbl_time.text = "-"
     }
 
     @IBAction func informationGame(_ sender: Any) {
-        alertMessage(title: "Game informations", message: "\nWhen listen the chord, select the option corresponding. \n\nScore \nFirst attempt: 200 points \nSecond attempt: 150 pontos \nThird attempt: 100 points \nFourth or more attempts: 50 points")
+        alertMessage(title: NSLocalizedString("Game informations", comment: "Frase curta / informativo"), message: NSLocalizedString("\nWhen listen the chord, select the option corresponding. \n\nScore \nFirst attempt: 200 points \nSecond attempt: 150 pontos \nThird attempt: 100 points \nFourth or more attempts: 50 points", comment: "Tradução de acordo com as regras."))
     }
 
 
@@ -566,7 +566,6 @@ class ViewController: UIViewController {
     Adicionar som dos bemois e preparar o código para não haver conflitos
     Mudar layout no King Mode
     Indicar quantas tentativas o jogador tem
-    Mudar fontes
     Indicar buttons de ajuda
  */
 
