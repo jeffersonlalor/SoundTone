@@ -137,12 +137,10 @@ class ViewController: UIViewController {
         copyIndexOptions = indexOptions
         indexOptions.sort()
         
-        option01.text = music[indexOptions[0]].cifra
-        option02.text = music[indexOptions[1]].cifra
-        option03.text = music[indexOptions[2]].cifra
-        option04.text = music[indexOptions[3]].cifra
-        
-//        btn_option01.setTitle("AOSDJOAKSJDOASDJ", for: .normal)
+        btn_option01.setTitle(music[indexOptions[0]].cifra, for: .normal)
+        btn_option02.setTitle(music[indexOptions[1]].cifra, for: .normal)
+        btn_option03.setTitle(music[indexOptions[2]].cifra, for: .normal)
+        btn_option04.setTitle(music[indexOptions[3]].cifra, for: .normal)
     }
 
     func alertMessage(title: String, message: String){
@@ -296,10 +294,6 @@ class ViewController: UIViewController {
 
 
 //Outlets
-    @IBOutlet weak var option01: UILabel!
-    @IBOutlet weak var option02: UILabel!
-    @IBOutlet weak var option03: UILabel!
-    @IBOutlet weak var option04: UILabel!
     @IBOutlet weak var btn_verificar: UIButton!
     @IBOutlet weak var btn_option01: UIButton!
     @IBOutlet weak var btn_option02: UIButton!
@@ -497,14 +491,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func checkAnswer(_ sender: Any) {
+        
         if !errorAudio {
-            let options: [UILabel?] = [option01, option02, option03, option04]
+            let options: [UIButton?] = [btn_option01, btn_option02, btn_option03, btn_option04]
             var i: Int = 0
-            
+
             for option in options {
                 if isSelectButton[i] != nil {
                     if isSelectButton[i]! {
-                        if option!.text == music[numberFile].cifra {
+                        if option?.titleLabel?.text == music[numberFile].cifra {
                             alertMessage(title: NSLocalizedString("Congratulations!", comment: "Mensagem de felicidade, acerto. Tem que ser curta."), message: NSLocalizedString("Right answer.", comment: "Frase curta para resposta correta."))
                             updateScore()
                             startNewRound()
@@ -520,7 +515,7 @@ class ViewController: UIViewController {
                 }
                 i+=1
             }
-            
+
         }else{
             alertMessage(title: NSLocalizedString("Error", comment: "Frase curta de erro"), message: NSLocalizedString("Audio file error. \nNo possibility of verification!", comment: "Frases curtas especificando o erro."))
         }
