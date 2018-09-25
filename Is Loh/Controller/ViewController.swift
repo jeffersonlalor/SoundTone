@@ -136,10 +136,13 @@ class ViewController: UIViewController {
         }
         copyIndexOptions = indexOptions
         indexOptions.sort()
+        
         option01.text = music[indexOptions[0]].cifra
         option02.text = music[indexOptions[1]].cifra
         option03.text = music[indexOptions[2]].cifra
         option04.text = music[indexOptions[3]].cifra
+        
+//        btn_option01.setTitle("AOSDJOAKSJDOASDJ", for: .normal)
     }
 
     func alertMessage(title: String, message: String){
