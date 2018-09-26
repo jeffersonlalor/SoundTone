@@ -88,11 +88,6 @@
                                     <constraint firstItem="1Ng-IW-O2K" firstAttribute="top" secondItem="RTP-ov-OBu" secondAttribute="bottom" constant="8" id="rZk-ic-Ws0"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k0w-Db-gUc" userLabel="LineView">
-                                <rect key="frame" x="399" y="107" width="375" height="1"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pyZ-AK-nSw" userLabel="OptionsView">
                                 <rect key="frame" x="0.0" y="106" width="375" height="561"/>
                                 <subviews>
@@ -168,7 +163,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="25"/>
-                                        <state key="normal" title="Cifra">
+                                        <state key="normal" title="C">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -181,7 +176,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="25"/>
-                                        <state key="normal" title="Cifra">
+                                        <state key="normal" title="D#">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -190,11 +185,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HF1-B5-WW9">
-                                        <rect key="frame" x="39" y="395" width="138" height="67"/>
+                                        <rect key="frame" x="39" y="401" width="138" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="25"/>
-                                        <state key="normal" title="Cifra">
+                                        <state key="normal" title="G#m">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -202,15 +197,12 @@
                                             <action selector="selectButton03:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jU4-76-kQ9"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgw-gt-soe">
-                                        <rect key="frame" x="199" y="395.5" width="138" height="67"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgw-gt-soe">
+                                        <rect key="frame" x="198" y="401" width="138" height="67"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="138" id="Owa-I3-DXd"/>
-                                            <constraint firstAttribute="height" constant="67" id="j6X-iH-nZS"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="25"/>
-                                        <state key="normal" title="Cifra">
+                                        <state key="normal" title="F#m">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -218,12 +210,10 @@
                                             <action selector="selectButton04:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xBd-m5-2us"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYc-xX-4qe">
-                                        <rect key="frame" x="90" y="500" width="195" height="32"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYc-xX-4qe">
+                                        <rect key="frame" x="64" y="499" width="246" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.1764705882352941" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="aYc-xX-4qe" secondAttribute="height" multiplier="61:10" id="vTT-La-gzo"/>
-                                        </constraints>
                                         <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="20"/>
                                         <state key="normal" title="Check">
                                             <color key="titleColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -242,16 +232,12 @@
                                     <constraint firstAttribute="trailing" secondItem="8Xn-bM-9DY" secondAttribute="trailing" constant="32" id="9qT-AZ-Wxb"/>
                                     <constraint firstItem="DZS-tY-eIK" firstAttribute="centerX" secondItem="pyZ-AK-nSw" secondAttribute="centerX" id="CPf-vc-DtI"/>
                                     <constraint firstItem="0iu-ll-ZRR" firstAttribute="centerY" secondItem="pyZ-AK-nSw" secondAttribute="centerY" multiplier="0.3" id="FK1-iE-2IB"/>
-                                    <constraint firstItem="Zgw-gt-soe" firstAttribute="centerY" secondItem="pyZ-AK-nSw" secondAttribute="centerY" multiplier="1.53" id="Ooh-kf-LAA"/>
                                     <constraint firstItem="DZS-tY-eIK" firstAttribute="top" secondItem="YrW-oh-nCF" secondAttribute="bottom" constant="8" id="Ows-NI-Kcz"/>
-                                    <constraint firstItem="aYc-xX-4qe" firstAttribute="centerX" secondItem="pyZ-AK-nSw" secondAttribute="centerX" id="PBe-17-bHZ"/>
                                     <constraint firstItem="YrW-oh-nCF" firstAttribute="centerY" secondItem="pyZ-AK-nSw" secondAttribute="centerY" multiplier="0.7" id="PTQ-Wd-nip"/>
-                                    <constraint firstItem="aYc-xX-4qe" firstAttribute="centerY" secondItem="pyZ-AK-nSw" secondAttribute="centerY" multiplier="1.84" id="QuO-0J-kUV"/>
                                     <constraint firstItem="DZS-tY-eIK" firstAttribute="centerX" secondItem="pyZ-AK-nSw" secondAttribute="centerX" id="Rh2-H3-MPX"/>
                                     <constraint firstItem="wSS-jn-sPL" firstAttribute="centerY" secondItem="pyZ-AK-nSw" secondAttribute="centerY" multiplier="0.3" id="V7j-ag-cWs"/>
                                     <constraint firstItem="1TO-St-Tos" firstAttribute="centerY" secondItem="pyZ-AK-nSw" secondAttribute="centerY" multiplier="0.3" id="fYs-Ds-yN8"/>
                                     <constraint firstItem="0iu-ll-ZRR" firstAttribute="leading" secondItem="1TO-St-Tos" secondAttribute="trailing" constant="40.5" id="ipy-8y-iau"/>
-                                    <constraint firstItem="Zgw-gt-soe" firstAttribute="centerX" secondItem="pyZ-AK-nSw" secondAttribute="centerX" multiplier="1.43" id="pxw-fC-kdQ"/>
                                     <constraint firstItem="0iu-ll-ZRR" firstAttribute="centerX" secondItem="pyZ-AK-nSw" secondAttribute="centerX" id="q8E-NC-9fs"/>
                                     <constraint firstItem="bpm-Nu-bEH" firstAttribute="leading" secondItem="pyZ-AK-nSw" secondAttribute="leading" constant="32" id="s9l-Ur-Z0z"/>
                                     <constraint firstItem="8Xn-bM-9DY" firstAttribute="top" secondItem="pyZ-AK-nSw" secondAttribute="top" constant="24" id="u0O-9b-EbJ"/>
