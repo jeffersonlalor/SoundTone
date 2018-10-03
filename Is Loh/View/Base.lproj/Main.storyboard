@@ -397,8 +397,46 @@
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FGQ-1n-7JF">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="FGQ-1n-7JF">
                                         <rect key="frame" x="32" y="64" width="311" height="467"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FS6-Yc-UK0">
+                                                <rect key="frame" x="0.0" y="0.0" width="311" height="100.5"/>
+                                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Obs-Rq-1ks">
+                                                <rect key="frame" x="0.0" y="100.5" width="311" height="145"/>
+                                                <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQi-DW-G2A">
+                                                <rect key="frame" x="0.0" y="245.5" width="311" height="144.5"/>
+                                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uX9-Ln-FUs">
+                                                <rect key="frame" x="0.0" y="390" width="311" height="77"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2C-Ev-hVo">
+                                                        <rect key="frame" x="0.0" y="22.5" width="311" height="32"/>
+                                                        <color key="backgroundColor" red="0.1764705882" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="20"/>
+                                                        <state key="normal" title="Check">
+                                                            <color key="titleColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUx-DE-YAm"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="M2C-Ev-hVo" firstAttribute="centerY" secondItem="uX9-Ln-FUs" secondAttribute="centerY" id="Bsz-gy-y2V"/>
+                                                    <constraint firstAttribute="trailing" secondItem="M2C-Ev-hVo" secondAttribute="trailing" id="JWd-aU-kxa"/>
+                                                    <constraint firstItem="M2C-Ev-hVo" firstAttribute="leading" secondItem="uX9-Ln-FUs" secondAttribute="leading" id="PtJ-Cz-xFt"/>
+                                                    <constraint firstItem="M2C-Ev-hVo" firstAttribute="centerX" secondItem="uX9-Ln-FUs" secondAttribute="centerX" id="qqZ-XW-2u9"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
