@@ -162,10 +162,10 @@
                                         <rect key="frame" x="32" y="339" width="253.5" height="130"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dea-ZM-DMP">
-                                                <rect key="frame" x="0.0" y="0.0" width="253.5" height="56.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="253.5" height="53.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="054-8i-yXw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="115.5" height="56.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="53.5"/>
                                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="054-8i-yXw" secondAttribute="height" multiplier="138:67" id="tVr-2Z-chD"/>
@@ -180,7 +180,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khn-op-YE3">
-                                                        <rect key="frame" x="135.5" y="0.0" width="118" height="56.5"/>
+                                                        <rect key="frame" x="129" y="0.0" width="124.5" height="53.5"/>
                                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Khn-op-YE3" secondAttribute="height" multiplier="23:11" id="bYE-GW-LB8"/>
@@ -197,10 +197,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Qif-Dr-DfK">
-                                                <rect key="frame" x="0.0" y="76.5" width="253.5" height="53.5"/>
+                                                <rect key="frame" x="0.0" y="73.5" width="253.5" height="56.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HF1-B5-WW9">
-                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="53.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="116.5" height="56.5"/>
                                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="HF1-B5-WW9" secondAttribute="height" multiplier="138:67" id="bQZ-P5-Mhu"/>
@@ -215,7 +215,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgw-gt-soe">
-                                                        <rect key="frame" x="130" y="0.0" width="123.5" height="53.5"/>
+                                                        <rect key="frame" x="136.5" y="0.0" width="117" height="56.5"/>
                                                         <color key="backgroundColor" red="0.14117647058823529" green="0.84705882352941175" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="Zgw-gt-soe" secondAttribute="height" multiplier="138:67" id="boH-gp-SOb"/>
@@ -310,7 +310,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-151.19999999999999" y="-29.23538230884558"/>
+            <point key="canvasLocation" x="-559" y="-392"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NzC-8b-BmE">
@@ -401,19 +401,56 @@
                                         <rect key="frame" x="32" y="64" width="311" height="467"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FS6-Yc-UK0" userLabel="OptionsView">
-                                                <rect key="frame" x="0.0" y="0.0" width="311" height="82"/>
-                                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="311" height="61"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ko4-7j-PrB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="311" height="61"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11h-2q-U6i" userLabel="Cancel two options">
+                                                                <rect key="frame" x="0.0" y="0.0" width="124.5" height="61"/>
+                                                                <color key="tintColor" red="0.14117647059999999" green="0.84705882349999995" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <state key="normal" image="cancel-two-options-2"/>
+                                                                <connections>
+                                                                    <action selector="cancelTwoOptions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AeY-2f-4oH"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsz-y8-F26" userLabel="King">
+                                                                <rect key="frame" x="124.5" y="0.0" width="113" height="61"/>
+                                                                <color key="tintColor" red="0.14117647059999999" green="0.84705882349999995" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <state key="normal" image="king"/>
+                                                                <connections>
+                                                                    <action selector="kingMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jcY-0z-cyl"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzT-9g-Mrt" userLabel="Next">
+                                                                <rect key="frame" x="237.5" y="0.0" width="73.5" height="61"/>
+                                                                <color key="tintColor" red="0.14117647059999999" green="0.84705882349999995" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                                <state key="normal" image="next"/>
+                                                                <connections>
+                                                                    <action selector="passSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJz-vv-iMd"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstItem="ko4-7j-PrB" firstAttribute="leading" secondItem="FS6-Yc-UK0" secondAttribute="leading" id="Gqc-F9-ung"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ko4-7j-PrB" secondAttribute="trailing" id="p9V-dw-h44"/>
+                                                    <constraint firstItem="ko4-7j-PrB" firstAttribute="top" secondItem="FS6-Yc-UK0" secondAttribute="top" id="u5K-IF-IyU"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ko4-7j-PrB" secondAttribute="bottom" id="vc6-ea-uAt"/>
+                                                </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Obs-Rq-1ks" userLabel="SoundView">
-                                                <rect key="frame" x="0.0" y="82" width="311" height="130.5"/>
+                                                <rect key="frame" x="0.0" y="61" width="311" height="135.5"/>
                                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQi-DW-G2A" userLabel="OptionsView">
-                                                <rect key="frame" x="0.0" y="212.5" width="311" height="204"/>
+                                                <rect key="frame" x="0.0" y="196.5" width="311" height="134.5"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uX9-Ln-FUs" userLabel="CheckView">
-                                                <rect key="frame" x="0.0" y="416.5" width="311" height="50.5"/>
+                                                <rect key="frame" x="0.0" y="331" width="311" height="136"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </view>
                                         </subviews>
@@ -448,13 +485,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2zj-nP-1yc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="544.79999999999995" y="-29.23538230884558"/>
+            <point key="canvasLocation" x="86" y="-393"/>
         </scene>
     </scenes>
     <resources>
-        <image name="cancel-two-options-2" width="131" height="87"/>
-        <image name="king" width="75" height="75"/>
-        <image name="next" width="72" height="72"/>
+        <image name="cancel-two-options-2" width="44" height="30"/>
+        <image name="king" width="40" height="44"/>
+        <image name="next" width="26" height="36"/>
         <image name="restart" width="44" height="44"/>
         <image name="touch-2" width="32" height="48"/>
     </resources>
