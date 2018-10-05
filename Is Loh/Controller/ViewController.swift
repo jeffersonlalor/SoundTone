@@ -302,7 +302,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberRounds: UILabel!
     @IBOutlet weak var score: UILabel!
     @IBOutlet weak var restartGame: UIButton!
-    @IBOutlet weak var viewBar: UIView!
     @IBOutlet weak var btn_sound: UIButton!
     @IBOutlet weak var touch: UILabel!
     @IBOutlet weak var btn_passRound: UIButton!
