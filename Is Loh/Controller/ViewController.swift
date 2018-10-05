@@ -546,7 +546,6 @@ class ViewController: UIViewController {
 //Default
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIApplication.shared.statusBarStyle = .lightContent //status bar branca
         startNewRound()
     }
 
