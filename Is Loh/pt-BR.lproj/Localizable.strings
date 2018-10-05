@@ -15,6 +15,12 @@
 /* Mensagem informando erro na execução do áudio. */
 "Error executing audio!" = "Erro de execução no áudio!";
 
+/* Tentativa 1 */
+"First attempt: 200 points" = "Primeira tentativa: 200 pontos";
+
+/* Tentativa 4 */
+"Fourth or more attempts: 50 points" = "Quarta ou mais tentativas: 50 pontos";
+
 /* Frase curta / informativo */
 "Game informations" = "Informações do jogo";
 
@@ -34,9 +40,21 @@
 /* Palavra especificando a label de rodada. */
 "Round: %d" = "Rodada: %d";
 
+/* Pontos */
+"Score" = "Pontuação";
+
 /* Palavra especficando a pontuação do jogador. */
 "Score: %d" = "Pontos: %d";
 
+/* Tentativa 2 */
+"Second attempt: 150 points" = "Segunda tentativa: 150 pontos";
+
+/* Tentativa 3 */
+"Third attempt: 100 points" = "Terceira tentativa: 100 pontos";
+
 /* Frase curta */
 "Touch here!" = "Toque aqui!";
+
+/* Traduzir para passar instruções */
+"When listen the chord, select the option corresponding." = "Ao ouvir o acorde, selecione a opção correspondente.";
 

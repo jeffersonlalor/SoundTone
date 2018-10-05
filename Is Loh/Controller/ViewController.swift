@@ -539,7 +539,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func informationGame(_ sender: Any) {
-        alertMessage(title: NSLocalizedString("Game informations", comment: "Frase curta / informativo"), message: NSLocalizedString("\nWhen listen the chord, select the option corresponding. \n\nScore \nFirst attempt: 200 points \nSecond attempt: 150 pontos \nThird attempt: 100 points \nFourth or more attempts: 50 points", comment: "Tradução de acordo com as regras."))
+        let phase1 = NSLocalizedString("When listen the chord, select the option corresponding.", comment: "Traduzir para passar instruções")
+        let phase2 = NSLocalizedString("Score", comment: "Pontos")
+        let phase3 = NSLocalizedString("First attempt: 200 points", comment: "Tentativa 1")
+        let phase4 = NSLocalizedString("Second attempt: 150 points", comment: "Tentativa 2")
+        let phase5 = NSLocalizedString("Third attempt: 100 points", comment: "Tentativa 3")
+        let phase6 = NSLocalizedString("Fourth or more attempts: 50 points", comment: "Tentativa 4")
+        
+        alertMessage(title: NSLocalizedString("Game informations", comment: "Frase curta / informativo"), message: String(format: "\n%@ \n\n%@ \n%@ \n%@ \n%@ \n%@", phase1, phase2, phase3, phase4, phase5, phase6))
     }
 
 

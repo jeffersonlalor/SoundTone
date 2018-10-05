@@ -229,7 +229,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbp-pI-4Ap">
-                                        <rect key="frame" x="163.5" y="164.5" width="48" height="48"/>
+                                        <rect key="frame" x="151.5" y="179.5" width="72" height="72"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Pbp-pI-4Ap" secondAttribute="height" multiplier="1:1" id="36e-Ts-uv2"/>
                                         </constraints>
@@ -240,7 +240,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch here!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hp6-JH-NSv">
-                                        <rect key="frame" x="148.5" y="227.5" width="78" height="17"/>
+                                        <rect key="frame" x="148.5" y="266.5" width="78" height="17"/>
                                         <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -255,7 +255,7 @@
                                     <constraint firstItem="lzX-gW-gHC" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" multiplier="0.5" id="LmN-4j-gbI"/>
                                     <constraint firstItem="oCR-GI-Sch" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.35" id="Mry-bl-Vvk"/>
                                     <constraint firstItem="oCR-GI-Sch" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" multiplier="1.5" id="QRB-2R-ltX"/>
-                                    <constraint firstItem="Pbp-pI-4Ap" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.7" id="Qzz-Aj-Dha"/>
+                                    <constraint firstItem="Pbp-pI-4Ap" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.8" id="Qzz-Aj-Dha"/>
                                     <constraint firstItem="47j-BZ-91J" firstAttribute="leading" secondItem="tXL-Bn-JfS" secondAttribute="leading" constant="32" id="RZM-HW-hrd"/>
                                     <constraint firstItem="V7G-6w-DJo" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="1.87" id="UBU-tb-s10"/>
                                     <constraint firstItem="dHw-YY-3C1" firstAttribute="leading" secondItem="tXL-Bn-JfS" secondAttribute="leading" constant="32" id="UlL-Hb-eCU"/>
@@ -312,6 +312,6 @@
         <image name="king" width="44" height="46"/>
         <image name="next" width="29" height="29"/>
         <image name="restart" width="44" height="44"/>
-        <image name="touch-2" width="32" height="48"/>
+        <image name="touch-2" width="48" height="72"/>
     </resources>
 </document>

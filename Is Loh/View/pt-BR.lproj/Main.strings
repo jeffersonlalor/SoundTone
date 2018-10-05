@@ -1,18 +1,30 @@
-/* Class = "UILabel"; text = "-"; ObjectID = "1Ng-IW-O2K"; */
-"1Ng-IW-O2K.text" = "-";
+/* Class = "UILabel"; text = "Score: 999"; ObjectID = "1Hc-6e-rVg"; */
+"1Hc-6e-rVg.text" = "Pontos: 999";
 
-/* Class = "UILabel"; text = "Score: 999"; ObjectID = "8Xn-bM-9DY"; */
-"8Xn-bM-9DY.text" = "Pontos: 999";
+/* Class = "UIButton"; normalTitle = "G#m"; ObjectID = "1Ut-9o-pRW"; */
+"1Ut-9o-pRW.normalTitle" = "G#m";
 
-/* Class = "UIButton"; normalTitle = "Check"; ObjectID = "aYc-xX-4qe"; */
-"aYc-xX-4qe.normalTitle" = "Verificar";
+/* Class = "UILabel"; text = "Round: 999"; ObjectID = "dHw-YY-3C1"; */
+"dHw-YY-3C1.text" = "Rodada: 999";
 
-/* Class = "UILabel"; text = "Round: 999"; ObjectID = "bpm-Nu-bEH"; */
-"bpm-Nu-bEH.text" = "Rodada: 999";
+/* Class = "UIButton"; normalTitle = "D#"; ObjectID = "ER7-NL-Eq7"; */
+"ER7-NL-Eq7.normalTitle" = "D#";
 
-/* Class = "UILabel"; text = "Touch here!"; ObjectID = "DZS-tY-eIK"; */
-"DZS-tY-eIK.text" = "Toque aqui!";
+/* Class = "UILabel"; text = "Hit the chord"; ObjectID = "gi5-QV-J3M"; */
+"gi5-QV-J3M.text" = "Ache o acorde";
 
-/* Class = "UILabel"; text = "Hit the chord"; ObjectID = "RTP-ov-OBu"; */
-"RTP-ov-OBu.text" = "Acerte o acorde";
+/* Class = "UIButton"; normalTitle = "C"; ObjectID = "Go6-Dn-OGz"; */
+"Go6-Dn-OGz.normalTitle" = "C";
+
+/* Class = "UILabel"; text = "Touch here!"; ObjectID = "Hp6-JH-NSv"; */
+"Hp6-JH-NSv.text" = "Toque aqui!";
+
+/* Class = "UIButton"; normalTitle = "F#m"; ObjectID = "TLw-U5-Y12"; */
+"TLw-U5-Y12.normalTitle" = "F#m";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "UAZ-i3-oCZ"; */
+"UAZ-i3-oCZ.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Check"; ObjectID = "V7G-6w-DJo"; */
+"V7G-6w-DJo.normalTitle" = "Verificar";
 
