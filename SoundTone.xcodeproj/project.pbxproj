@@ -43,7 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84721CE120F968AD00BD0D63 /* Tone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84721CE120F968AD00BD0D63 /* SoundTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84721CE420F968AD00BD0D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84721CE620F968AD00BD0D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84721CE920F968AD00BD0D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		84721CE220F968AD00BD0D63 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84721CE120F968AD00BD0D63 /* Tone.app */,
+				84721CE120F968AD00BD0D63 /* SoundTone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,9 +192,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84721CE020F968AD00BD0D63 /* Tone */ = {
+		84721CE020F968AD00BD0D63 /* SoundTone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84721CF320F968AF00BD0D63 /* Build configuration list for PBXNativeTarget "Tone" */;
+			buildConfigurationList = 84721CF320F968AF00BD0D63 /* Build configuration list for PBXNativeTarget "SoundTone" */;
 			buildPhases = (
 				84721CDD20F968AD00BD0D63 /* Sources */,
 				84721CDE20F968AD00BD0D63 /* Frameworks */,
@@ -204,9 +204,9 @@
 			);
 			dependencies = (
 			);
-			name = Tone;
+			name = SoundTone;
 			productName = "Is Loh";
-			productReference = 84721CE120F968AD00BD0D63 /* Tone.app */;
+			productReference = 84721CE120F968AD00BD0D63 /* SoundTone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84721CDC20F968AD00BD0D63 /* Build configuration list for PBXProject "Tone" */;
+			buildConfigurationList = 84721CDC20F968AD00BD0D63 /* Build configuration list for PBXProject "SoundTone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,7 +239,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84721CE020F968AD00BD0D63 /* Tone */,
+				84721CE020F968AD00BD0D63 /* SoundTone */,
 			);
 		};
 /* End PBXProject section */
@@ -446,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.academy.Is-Loh";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalor.soundtone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -465,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.academy.Is-Loh";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalor.soundtone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -475,7 +475,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84721CDC20F968AD00BD0D63 /* Build configuration list for PBXProject "Tone" */ = {
+		84721CDC20F968AD00BD0D63 /* Build configuration list for PBXProject "SoundTone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84721CF120F968AF00BD0D63 /* Debug */,
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84721CF320F968AF00BD0D63 /* Build configuration list for PBXNativeTarget "Tone" */ = {
+		84721CF320F968AF00BD0D63 /* Build configuration list for PBXNativeTarget "SoundTone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84721CF420F968AF00BD0D63 /* Debug */,
