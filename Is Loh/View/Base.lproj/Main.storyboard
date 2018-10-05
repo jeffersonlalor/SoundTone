@@ -520,6 +520,23 @@
                                             <action selector="checkAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ehg-3k-lXn"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pbp-pI-4Ap">
+                                        <rect key="frame" x="163.5" y="164.5" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Pbp-pI-4Ap" secondAttribute="height" multiplier="1:1" id="36e-Ts-uv2"/>
+                                        </constraints>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                        <state key="normal" image="touch-2"/>
+                                        <connections>
+                                            <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Awr-FZ-88m"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch here!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hp6-JH-NSv">
+                                        <rect key="frame" x="148.5" y="227.5" width="78" height="17"/>
+                                        <fontDescription key="fontDescription" name="StarlightPersonal" family="Starlight Personal" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -530,15 +547,19 @@
                                     <constraint firstItem="lzX-gW-gHC" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" multiplier="0.5" id="LmN-4j-gbI"/>
                                     <constraint firstItem="oCR-GI-Sch" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.35" id="Mry-bl-Vvk"/>
                                     <constraint firstItem="oCR-GI-Sch" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" multiplier="1.5" id="QRB-2R-ltX"/>
+                                    <constraint firstItem="Pbp-pI-4Ap" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.7" id="Qzz-Aj-Dha"/>
                                     <constraint firstItem="47j-BZ-91J" firstAttribute="leading" secondItem="tXL-Bn-JfS" secondAttribute="leading" constant="32" id="RZM-HW-hrd"/>
                                     <constraint firstItem="V7G-6w-DJo" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="1.87" id="UBU-tb-s10"/>
                                     <constraint firstItem="dHw-YY-3C1" firstAttribute="leading" secondItem="tXL-Bn-JfS" secondAttribute="leading" constant="32" id="UlL-Hb-eCU"/>
                                     <constraint firstItem="Idi-Ql-zXE" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" id="WZy-Fe-heY"/>
                                     <constraint firstItem="lzX-gW-gHC" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.35" id="aqf-NE-RdL"/>
                                     <constraint firstItem="V7G-6w-DJo" firstAttribute="top" secondItem="47j-BZ-91J" secondAttribute="bottom" constant="15" id="au5-LS-Ygi"/>
+                                    <constraint firstItem="Pbp-pI-4Ap" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" id="iox-cB-kvF"/>
                                     <constraint firstAttribute="trailing" secondItem="1Hc-6e-rVg" secondAttribute="trailing" constant="32" id="jWt-p4-Oou"/>
+                                    <constraint firstItem="Hp6-JH-NSv" firstAttribute="top" secondItem="Pbp-pI-4Ap" secondAttribute="bottom" constant="15" id="qWh-gg-Smn"/>
                                     <constraint firstAttribute="trailing" secondItem="47j-BZ-91J" secondAttribute="trailing" constant="32" id="vbm-oR-ZUo"/>
                                     <constraint firstItem="1Hc-6e-rVg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dHw-YY-3C1" secondAttribute="trailing" constant="8" symbolic="YES" id="wnq-LG-KEA"/>
+                                    <constraint firstItem="Hp6-JH-NSv" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" id="xLo-GG-eLj"/>
                                 </constraints>
                             </view>
                         </subviews>
