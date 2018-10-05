@@ -378,7 +378,7 @@
                                 <rect key="frame" x="0.0" y="128" width="375" height="539"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Round: 999" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHw-YY-3C1">
-                                        <rect key="frame" x="32" y="32" width="92" height="24"/>
+                                        <rect key="frame" x="32" y="42" width="92" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="dHw-YY-3C1" secondAttribute="height" multiplier="23:6" id="w5Z-8p-5py"/>
                                         </constraints>
@@ -388,7 +388,7 @@
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 999" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Hc-6e-rVg">
-                                        <rect key="frame" x="252.5" y="32" width="90.5" height="24"/>
+                                        <rect key="frame" x="252.5" y="41.5" width="90.5" height="24.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="1Hc-6e-rVg" secondAttribute="height" multiplier="15:4" id="ZGZ-H7-zoP"/>
                                         </constraints>
@@ -397,8 +397,8 @@
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idi-Ql-zXE" userLabel="King">
-                                        <rect key="frame" x="164.5" y="71" width="46" height="44"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Idi-Ql-zXE" userLabel="King">
+                                        <rect key="frame" x="164.5" y="85.5" width="46" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Idi-Ql-zXE" secondAttribute="height" multiplier="23:22" id="QtV-nW-0Ry"/>
                                             <constraint firstAttribute="width" constant="46" id="Vy5-7X-9ab"/>
@@ -410,8 +410,8 @@
                                             <action selector="kingMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Sg-9U-p6F"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzX-gW-gHC" userLabel="Cancel two options">
-                                        <rect key="frame" x="62.5" y="79" width="31" height="29"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzX-gW-gHC" userLabel="Cancel two options">
+                                        <rect key="frame" x="62.5" y="93" width="31" height="29"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="MDQ-nl-SK7"/>
                                             <constraint firstAttribute="width" constant="31" id="VvY-iQ-U14"/>
@@ -423,8 +423,8 @@
                                             <action selector="cancelTwoOptions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aq8-mE-xo8"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCR-GI-Sch" userLabel="Next">
-                                        <rect key="frame" x="282.5" y="79" width="31" height="29"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCR-GI-Sch" userLabel="Next">
+                                        <rect key="frame" x="282.5" y="93" width="31" height="29"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="c54-tn-9Fj"/>
                                             <constraint firstAttribute="width" constant="31" id="dOy-cT-nTd"/>
@@ -440,11 +440,14 @@
                                 <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="lzX-gW-gHC" firstAttribute="centerX" secondItem="dHw-YY-3C1" secondAttribute="centerX" id="AjI-35-6oL"/>
-                                    <constraint firstItem="dHw-YY-3C1" firstAttribute="top" secondItem="tXL-Bn-JfS" secondAttribute="top" constant="32" id="SIP-Pu-j0F"/>
+                                    <constraint firstItem="1Hc-6e-rVg" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.2" id="Bn2-C9-zaq"/>
+                                    <constraint firstItem="Idi-Ql-zXE" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.4" id="Eft-QK-Itz"/>
+                                    <constraint firstItem="dHw-YY-3C1" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.2" id="GBQ-RX-B7b"/>
+                                    <constraint firstItem="oCR-GI-Sch" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.4" id="Mry-bl-Vvk"/>
                                     <constraint firstItem="dHw-YY-3C1" firstAttribute="leading" secondItem="tXL-Bn-JfS" secondAttribute="leading" constant="32" id="UlL-Hb-eCU"/>
                                     <constraint firstItem="Idi-Ql-zXE" firstAttribute="centerX" secondItem="tXL-Bn-JfS" secondAttribute="centerX" id="WZy-Fe-heY"/>
+                                    <constraint firstItem="lzX-gW-gHC" firstAttribute="centerY" secondItem="tXL-Bn-JfS" secondAttribute="centerY" multiplier="0.4" id="aqf-NE-RdL"/>
                                     <constraint firstAttribute="trailing" secondItem="1Hc-6e-rVg" secondAttribute="trailing" constant="32" id="jWt-p4-Oou"/>
-                                    <constraint firstItem="1Hc-6e-rVg" firstAttribute="top" secondItem="tXL-Bn-JfS" secondAttribute="top" constant="32" id="prT-Av-Eeg"/>
                                     <constraint firstItem="oCR-GI-Sch" firstAttribute="centerX" secondItem="1Hc-6e-rVg" secondAttribute="centerX" id="qvs-1h-izj"/>
                                 </constraints>
                             </view>
