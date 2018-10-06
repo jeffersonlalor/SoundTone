@@ -1,6 +1,6 @@
 //
 //  Extensions.swift
-//  Is Loh
+//  SoundTone
 //
 //  Created by Jefferson de Oliveira Lalor on 17/07/2018.
 //  Copyright © 2018 Academy. All rights reserved.
