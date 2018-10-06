@@ -1,8 +1,56 @@
+/* Lá maior */
+"A major" = "Lá";
+
+/* Lá menor */
+"A minor" = "Lá menor";
+
+/* Lá sustenido */
+"A sharp" = "Lá sustenido";
+
+/* Lá sustenido menor */
+"A sharp minor" = "Lá sustenido menor";
+
 /* Tradução curta informando erro no audio. */
 "Audio file not found!" = "Arquivo de áudio não encontrado!";
 
+/* Sí maior */
+"B major" = "Sí";
+
+/* Sí menor */
+"B minor" = "Sí menor";
+
+/* Dó maior */
+"C major" = "Dó";
+
+/* Dó menor */
+"C minor" = "Dó menor";
+
+/* Dó sustenido */
+"C sharp" = "Dó sustenido";
+
+/* Dó sustenido menor */
+"C sharp minor" = "Dó sustenido menor";
+
 /* Mensagem de felicidade, acerto. Tem que ser curta. */
 "Congratulations!" = "Parabéns!";
+
+/* Ré maior */
+"D major" = "Ré";
+
+/* Ré menor */
+"D minor" = "Ré menor";
+
+/* Ré sustenido */
+"D sharp" = "Ré sustenido";
+
+/* Ré sustenido menor */
+"D sharp minor" = "Ré sustenido menor";
+
+/* Mí maior */
+"E major" = "Mí";
+
+/* Mí menor */
+"E minor" = "Mí menor";
 
 /* Traduzir para pt-br */
 "en-us" = "pt-br";
@@ -15,11 +63,35 @@
 /* Mensagem informando erro na execução do áudio. */
 "Error executing audio!" = "Erro de execução no áudio!";
 
+/* Fá maior */
+"F major" = "Fá";
+
+/* Fá menor */
+"F minor" = "Fá menor";
+
+/* Fá sustenido */
+"F sharp" = "Fá sustenido";
+
+/* Fá sustenido menor */
+"F sharp minor" = "Fá sustenido menor";
+
 /* Tentativa 1 */
 "First attempt: 200 points" = "Primeira tentativa: 200 pontos";
 
 /* Tentativa 4 */
 "Fourth or more attempts: 50 points" = "Quarta ou mais tentativas: 50 pontos";
+
+/* Sol maior */
+"G major" = "Sol";
+
+/* Sol menor */
+"G minor" = "Sol menor";
+
+/* Sol sustenido */
+"G sharp" = "Sol sustenido";
+
+/* Sol sustenido menor */
+"G sharp minor" = "Sol sustenido menor";
 
 /* Frase curta / informativo */
 "Game informations" = "Informações do jogo";
