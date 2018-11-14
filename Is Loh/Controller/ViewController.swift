@@ -287,6 +287,7 @@ class ViewController: UIViewController {
             player.stop()
             player.currentTime = 0
             let toSay = AVSpeechUtterance(string: text)
+            spk.stopSpeaking(at: AVSpeechBoundary.immediate)
             toSay.voice = voice
             spk.speak(toSay)
         }
