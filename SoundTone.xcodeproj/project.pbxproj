@@ -31,6 +31,7 @@
 		848B22EA219F0C6500C77B4D /* Is_Loh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848B22E7219F0C6500C77B4D /* Is_Loh.xcdatamodeld */; };
 		848B22EB219F0C6500C77B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B22E9219F0C6500C77B4D /* AppDelegate.swift */; };
 		848B22ED219F0E5100C77B4D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B22EC219F0E5100C77B4D /* ModelController.swift */; };
+		848B22EF219F117B00C77B4D /* SongFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B22EE219F117B00C77B4D /* SongFile.swift */; };
 		849E3B31214945AE004DD9CD /* BEBAS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849E3B30214945AE004DD9CD /* BEBAS.ttf */; };
 		84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B0716720FE22E3002B03DF /* Starlight Personal.ttf */; };
 		84BEE113215A834000F5C25A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BEE111215A834000F5C25A /* Localizable.strings */; };
@@ -72,6 +73,7 @@
 		848B22E8219F0C6500C77B4D /* Is_Loh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Is_Loh.xcdatamodel; sourceTree = "<group>"; };
 		848B22E9219F0C6500C77B4D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848B22EC219F0E5100C77B4D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		848B22EE219F117B00C77B4D /* SongFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongFile.swift; sourceTree = "<group>"; };
 		849E3B30214945AE004DD9CD /* BEBAS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.ttf; sourceTree = "<group>"; };
 		84AF35232153CCBA008732AC /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		84D7B850213D879F0063D890 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				848B22EE219F117B00C77B4D /* SongFile.swift */,
 				848B22EC219F0E5100C77B4D /* ModelController.swift */,
 				848B22E7219F0C6500C77B4D /* Is_Loh.xcdatamodeld */,
 				84D5C84F20FA9F4D0050B588 /* Songs */,
@@ -300,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84721CE720F968AD00BD0D63 /* ViewController.swift in Sources */,
+				848B22EF219F117B00C77B4D /* SongFile.swift in Sources */,
 				848B22ED219F0E5100C77B4D /* ModelController.swift in Sources */,
 				848B22EA219F0C6500C77B4D /* Is_Loh.xcdatamodeld in Sources */,
 				84CA160C210E7C9000462F0D /* UIColorExtensions.swift in Sources */,
