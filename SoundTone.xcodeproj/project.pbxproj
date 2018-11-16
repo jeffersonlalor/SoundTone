@@ -78,7 +78,7 @@
 		84AF35232153CCBA008732AC /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
 		84BEE112215A834000F5C25A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		84CA160B210E7C9000462F0D /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = "Is Loh/Controller/UIColorExtensions.swift"; sourceTree = SOURCE_ROOT; };
+		84CA160B210E7C9000462F0D /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = "Is Loh/View/UIColorExtensions.swift"; sourceTree = SOURCE_ROOT; };
 		84D7B853213D88A30063D890 /* F - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F - Clean.mp3"; path = "../../../../Acordes/Maiores/F - Clean.mp3"; sourceTree = "<group>"; };
 		84D7B854213D88A30063D890 /* D - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D - Clean.mp3"; path = "../../../../Acordes/Maiores/D - Clean.mp3"; sourceTree = "<group>"; };
 		84D7B855213D88A30063D890 /* C - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C - Clean.mp3"; path = "../../../../Acordes/Maiores/C - Clean.mp3"; sourceTree = "<group>"; };
@@ -184,9 +184,10 @@
 			isa = PBXGroup;
 			children = (
 				84B0716420FE2117002B03DF /* Fonts */,
-				8441EFDF2167EB8900B660DA /* LaunchScreen.storyboard */,
-				84721CE820F968AD00BD0D63 /* Main.storyboard */,
 				84721CEB20F968AF00BD0D63 /* Assets.xcassets */,
+				84721CE820F968AD00BD0D63 /* Main.storyboard */,
+				8441EFDF2167EB8900B660DA /* LaunchScreen.storyboard */,
+				84CA160B210E7C9000462F0D /* UIColorExtensions.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				848B22E9219F0C6500C77B4D /* AppDelegate.swift */,
-				84CA160B210E7C9000462F0D /* UIColorExtensions.swift */,
 				84721CE620F968AD00BD0D63 /* ViewController.swift */,
 			);
 			path = Controller;

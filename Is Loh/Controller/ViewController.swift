@@ -11,70 +11,23 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-
-// MARK: - Variáveis
-    struct Songs{
-        let nameFile: String
-        let cifra: String
-        let chordeName: String
-    }
-    let music: [Songs] = [
-        Songs(nameFile: "A - Clean", cifra: "A", chordeName: NSLocalizedString("A major", comment: "Lá maior")),
-        Songs(nameFile: "B - Clean", cifra: "B", chordeName: NSLocalizedString("B major", comment: "Sí maior")),
-        Songs(nameFile: "C - Clean", cifra: "C", chordeName: NSLocalizedString("C major", comment: "Dó maior")),
-        Songs(nameFile: "D - Clean", cifra: "D", chordeName: NSLocalizedString("D major", comment: "Ré maior")),
-        Songs(nameFile: "E - Clean", cifra: "E", chordeName: NSLocalizedString("E major", comment: "Mí maior")),
-        Songs(nameFile: "F - Clean", cifra: "F", chordeName: NSLocalizedString("F major", comment: "Fá maior")),
-        Songs(nameFile: "G - Clean", cifra: "G", chordeName: NSLocalizedString("G major", comment: "Sol maior")),
-        Songs(nameFile: "A# - Clean", cifra: "A#", chordeName: NSLocalizedString("A sharp", comment: "Lá sustenido")),
-        Songs(nameFile: "C# - Clean", cifra: "C#", chordeName: NSLocalizedString("C sharp", comment: "Dó sustenido")),
-        Songs(nameFile: "D# - Clean", cifra: "D#", chordeName: NSLocalizedString("D sharp", comment: "Ré sustenido")),
-        Songs(nameFile: "F# - Clean", cifra: "F#", chordeName: NSLocalizedString("F sharp", comment: "Fá sustenido")),
-        Songs(nameFile: "G# - Clean", cifra: "G#", chordeName: NSLocalizedString("G sharp", comment: "Sol sustenido")),
-        Songs(nameFile: "Am - Clean", cifra: "Am", chordeName: NSLocalizedString("A minor", comment: "Lá menor")),
-        Songs(nameFile: "Bm - Clean", cifra: "Bm", chordeName: NSLocalizedString("B minor", comment: "Sí menor")),
-        Songs(nameFile: "Cm - Clean", cifra: "Cm", chordeName: NSLocalizedString("C minor", comment: "Dó menor")),
-        Songs(nameFile: "Dm - Clean", cifra: "Dm", chordeName: NSLocalizedString("D minor", comment: "Ré menor")),
-        Songs(nameFile: "Em - Clean", cifra: "Em", chordeName: NSLocalizedString("E minor", comment: "Mí menor")),
-        Songs(nameFile: "Fm - Clean", cifra: "Fm", chordeName: NSLocalizedString("F minor", comment: "Fá menor")),
-        Songs(nameFile: "Gm - Clean", cifra: "Gm", chordeName: NSLocalizedString("G minor", comment: "Sol menor")),
-        Songs(nameFile: "A#m - Clean", cifra: "A#m", chordeName: NSLocalizedString("A sharp minor", comment: "Lá sustenido menor")),
-        Songs(nameFile: "C#m - Clean", cifra: "C#m", chordeName: NSLocalizedString("C sharp minor", comment: "Dó sustenido menor")),
-        Songs(nameFile: "D#m - Clean", cifra: "D#m", chordeName: NSLocalizedString("D sharp minor", comment: "Ré sustenido menor")),
-        Songs(nameFile: "F#m - Clean", cifra: "F#m", chordeName: NSLocalizedString("F sharp minor", comment: "Fá sustenido menor")),
-        Songs(nameFile: "G#m - Clean", cifra: "G#m", chordeName: NSLocalizedString("G sharp minor", comment: "Sol sustenido menor")),
-
-        
-        /*
-         
-         Songs(nameFile: "Ab - Clean", cifra: "Ab", chordeName: "Lá bemol"),
-         Songs(nameFile: "Bb - Clean", cifra: "Bb", chordeName: "Sí bemol"),
-         Songs(nameFile: "Db - Clean", cifra: "Db", chordeName: "Ré bemol"),
-         Songs(nameFile: "Eb - Clean", cifra: "Eb", chordeName: "Mí bemol"),
-         Songs(nameFile: "Gb - Clean", cifra: "Gb", chordeName: "Sol bemol"),
-         
-         Songs(nameFile: "Abm - Clean", cifra: "Abm", chordeName: "Lá bemol menor"),
-         Songs(nameFile: "Bbm - Clean", cifra: "Bbm", chordeName: "Sí bemol menor"),
-         Songs(nameFile: "Dbm - Clean", cifra: "Dbm", chordeName: "Ré bemol menor"),
-         Songs(nameFile: "Ebm - Clean", cifra: "Ebm", chordeName: "Mí bemol menor"),
-         Songs(nameFile: "Gbm - Clean", cifra: "Gbm", chordeName: "Sol bemol menor"),
-         
-         */
-    ]
     
-    //Audio control
+// MARK: - Variáveis de controle de áudio
     var player = AVAudioPlayer()
     var errorAudio: Bool = false
     
-    //Voice Siri
+    
+// MARK: - Variáveis de controle da Voice Siri
     let voice = AVSpeechSynthesisVoice(language: NSLocalizedString("en-us", comment: "Traduzir para pt-br"))
     let spk = AVSpeechSynthesizer()
 
-    //Time variable
+    
+// MARK: - Variáveis de tempo
     var timer = Timer()
     var time: Int = 30
     
-    //Game variables
+    
+// MARK: - Variáveis de jogabilidade
     var round = 0
     var ponctuation = 0
     var numberTry = 0
@@ -84,19 +37,39 @@ class ViewController: UIViewController {
     var isKingMode: Bool = false
     var errouKingMode: Bool = false
 
-    //Option variables
+    
+// MARK: - Variáveis de controle de opção
     var numberFile: Int = 0
     var indexOptions: [Int] = []
     var copyIndexOptions: [Int] = []
     var isSelectButton: [Bool?] = [false, false, false, false]
 
+    
+// MARK: - Outlets
+    @IBOutlet weak var btn_verificar: UIButton!
+    @IBOutlet weak var btn_option01: UIButton!
+    @IBOutlet weak var btn_option02: UIButton!
+    @IBOutlet weak var btn_option03: UIButton!
+    @IBOutlet weak var btn_option04: UIButton!
+    @IBOutlet weak var numberRounds: UILabel!
+    @IBOutlet weak var score: UILabel!
+    @IBOutlet weak var restartGame: UIButton!
+    @IBOutlet weak var btn_sound: UIButton!
+    @IBOutlet weak var touch: UILabel!
+    @IBOutlet weak var btn_passRound: UIButton!
+    @IBOutlet weak var btn_cancelTwoOptions: UIButton!
+    @IBOutlet weak var lbl_messageTime: UILabel!
+    @IBOutlet weak var lbl_time: UILabel!
+    @IBOutlet weak var btn_kingMode: UIButton!
 
 
+// MARK: - Funcões
     func loadNumberFile(){
         let qtMusics: Int = music.count
         numberFile = Int( arc4random_uniform(UInt32(qtMusics)) )
     }
 
+    
     func prepareMusic(){
         let path = Bundle.main.path(forResource: music[numberFile].nameFile, ofType: "mp3")
         if path != nil {
@@ -115,6 +88,7 @@ class ViewController: UIViewController {
         }
     }
 
+    
     func prepareOptions(){
         indexOptions = []
         copyIndexOptions = []
@@ -143,6 +117,7 @@ class ViewController: UIViewController {
         btn_option04.setTitle(music[indexOptions[3]].cifra, for: .normal)
     }
 
+    
     func alertMessage(title: String, message: String){
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
@@ -150,6 +125,7 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
 
+    
     func applyDesignButtonDefault(button: UIButton!){
         button.backgroundColor = UIColor.buttonGreen
         button.layer.cornerRadius = 15
@@ -157,12 +133,14 @@ class ViewController: UIViewController {
         button.isEnabled = true
     }
 
+    
     func applyDesignButtonSelected(button: UIButton!){
         button.backgroundColor = UIColor.orange
         button.layer.cornerRadius = 15
         button.setTitleColor(UIColor.white, for: .normal)
     }
 
+    
     func applyDesignButtonDesabled(button: UIButton!){
         button.layer.cornerRadius = 15
         button.backgroundColor = UIColor.disableGray
@@ -170,6 +148,7 @@ class ViewController: UIViewController {
         button.isEnabled = false
     }
 
+    
     func updateButtons(numberButton: Int){
         if numberButton == 1 {
             applyDesignButtonSelected(button: btn_option01)
@@ -224,6 +203,7 @@ class ViewController: UIViewController {
  
     }
 
+    
     func startNewRound(){
         if !lbl_time.isHidden {
             lbl_time.isHidden = true
@@ -257,6 +237,7 @@ class ViewController: UIViewController {
         isSelectButton[3] = false
     }
 
+    
     func updateScore(){
         switch numberTry {
             case 0:
@@ -286,6 +267,7 @@ class ViewController: UIViewController {
         }
     }
 
+    
     func voiceSiri(text: String){
         if !errorAudio {
             player.stop()
@@ -296,28 +278,7 @@ class ViewController: UIViewController {
             spk.speak(toSay)
         }
     }
-
-
     
-    
-//MARK: - Outlets
-    @IBOutlet weak var btn_verificar: UIButton!
-    @IBOutlet weak var btn_option01: UIButton!
-    @IBOutlet weak var btn_option02: UIButton!
-    @IBOutlet weak var btn_option03: UIButton!
-    @IBOutlet weak var btn_option04: UIButton!
-    @IBOutlet weak var numberRounds: UILabel!
-    @IBOutlet weak var score: UILabel!
-    @IBOutlet weak var restartGame: UIButton!
-    @IBOutlet weak var btn_sound: UIButton!
-    @IBOutlet weak var touch: UILabel!
-    @IBOutlet weak var btn_passRound: UIButton!
-    @IBOutlet weak var btn_cancelTwoOptions: UIButton!
-    @IBOutlet weak var lbl_messageTime: UILabel!
-    @IBOutlet weak var lbl_time: UILabel!
-    @IBOutlet weak var btn_kingMode: UIButton!
-    
-  
     
     
 //MARK: - Actions
@@ -566,7 +527,7 @@ class ViewController: UIViewController {
 
     
     
-//MARK: - Default System
+//MARK: - Default System Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         startNewRound()
@@ -596,16 +557,3 @@ class ViewController: UIViewController {
     Conexão com redes sociais
     Níveis
  */
-
-
-
-
-
-
-
-
-
-
-
-
-
