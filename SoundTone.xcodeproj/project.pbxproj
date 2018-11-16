@@ -113,12 +113,11 @@
 		84721CE320F968AD00BD0D63 /* Is Loh */ = {
 			isa = PBXGroup;
 			children = (
-				84721CE420F968AD00BD0D63 /* AppDelegate.swift */,
 				84721CF020F968AF00BD0D63 /* Info.plist */,
 				84BEE111215A834000F5C25A /* Localizable.strings */,
+				84D7B852213D87B50063D890 /* Controller */,
 				84D7B850213D879F0063D890 /* Model */,
 				84D7B851213D87A70063D890 /* View */,
-				84D7B852213D87B50063D890 /* Controller */,
 			);
 			path = "Is Loh";
 			sourceTree = "<group>";
@@ -186,6 +185,7 @@
 		84D7B852213D87B50063D890 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				84721CE420F968AD00BD0D63 /* AppDelegate.swift */,
 				84CA160B210E7C9000462F0D /* Extensions.swift */,
 				84721CE620F968AD00BD0D63 /* ViewController.swift */,
 			);
