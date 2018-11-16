@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8441EFE02167EB8900B660DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8441EFDF2167EB8900B660DA /* LaunchScreen.storyboard */; };
-		84721CE520F968AD00BD0D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84721CE420F968AD00BD0D63 /* AppDelegate.swift */; };
 		84721CE720F968AD00BD0D63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84721CE620F968AD00BD0D63 /* ViewController.swift */; };
 		84721CEA20F968AD00BD0D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84721CE820F968AD00BD0D63 /* Main.storyboard */; };
 		84721CEC20F968AF00BD0D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84721CEB20F968AF00BD0D63 /* Assets.xcassets */; };
@@ -29,6 +28,9 @@
 		8484ADE92110711C00C9CEE6 /* F#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE42110711C00C9CEE6 /* F#m - Clean.mp3 */; };
 		8484ADEA2110711D00C9CEE6 /* C#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE52110711C00C9CEE6 /* C#m - Clean.mp3 */; };
 		8484ADEB2110711D00C9CEE6 /* G#m - Clean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8484ADE62110711C00C9CEE6 /* G#m - Clean.mp3 */; };
+		848B22EA219F0C6500C77B4D /* Is_Loh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848B22E7219F0C6500C77B4D /* Is_Loh.xcdatamodeld */; };
+		848B22EB219F0C6500C77B4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B22E9219F0C6500C77B4D /* AppDelegate.swift */; };
+		848B22ED219F0E5100C77B4D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848B22EC219F0E5100C77B4D /* ModelController.swift */; };
 		849E3B31214945AE004DD9CD /* BEBAS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849E3B30214945AE004DD9CD /* BEBAS.ttf */; };
 		84B0716820FE22E3002B03DF /* Starlight Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84B0716720FE22E3002B03DF /* Starlight Personal.ttf */; };
 		84BEE113215A834000F5C25A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BEE111215A834000F5C25A /* Localizable.strings */; };
@@ -46,7 +48,6 @@
 /* Begin PBXFileReference section */
 		8441EFDF2167EB8900B660DA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84721CE120F968AD00BD0D63 /* SoundTone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84721CE420F968AD00BD0D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84721CE620F968AD00BD0D63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84721CE920F968AD00BD0D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84721CEB20F968AF00BD0D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +69,9 @@
 		8484ADE42110711C00C9CEE6 /* F#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#m - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADE52110711C00C9CEE6 /* C#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#m - Clean.mp3"; sourceTree = "<group>"; };
 		8484ADE62110711C00C9CEE6 /* G#m - Clean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#m - Clean.mp3"; sourceTree = "<group>"; };
+		848B22E8219F0C6500C77B4D /* Is_Loh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Is_Loh.xcdatamodel; sourceTree = "<group>"; };
+		848B22E9219F0C6500C77B4D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848B22EC219F0E5100C77B4D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		849E3B30214945AE004DD9CD /* BEBAS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.ttf; sourceTree = "<group>"; };
 		84AF35232153CCBA008732AC /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		84B0716720FE22E3002B03DF /* Starlight Personal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starlight Personal.ttf"; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 		84D7B850213D879F0063D890 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				848B22EC219F0E5100C77B4D /* ModelController.swift */,
+				848B22E7219F0C6500C77B4D /* Is_Loh.xcdatamodeld */,
 				84D5C84F20FA9F4D0050B588 /* Songs */,
 			);
 			path = Model;
@@ -185,7 +191,7 @@
 		84D7B852213D87B50063D890 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84721CE420F968AD00BD0D63 /* AppDelegate.swift */,
+				848B22E9219F0C6500C77B4D /* AppDelegate.swift */,
 				84CA160B210E7C9000462F0D /* Extensions.swift */,
 				84721CE620F968AD00BD0D63 /* ViewController.swift */,
 			);
@@ -294,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84721CE720F968AD00BD0D63 /* ViewController.swift in Sources */,
+				848B22ED219F0E5100C77B4D /* ModelController.swift in Sources */,
+				848B22EA219F0C6500C77B4D /* Is_Loh.xcdatamodeld in Sources */,
 				84CA160C210E7C9000462F0D /* Extensions.swift in Sources */,
-				84721CE520F968AD00BD0D63 /* AppDelegate.swift in Sources */,
+				848B22EB219F0C6500C77B4D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +506,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		848B22E7219F0C6500C77B4D /* Is_Loh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				848B22E8219F0C6500C77B4D /* Is_Loh.xcdatamodel */,
+			);
+			currentVersion = 848B22E8219F0C6500C77B4D /* Is_Loh.xcdatamodel */;
+			path = Is_Loh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84721CD920F968AD00BD0D63 /* Project object */;
 }
