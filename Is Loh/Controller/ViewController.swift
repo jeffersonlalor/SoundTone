@@ -12,7 +12,7 @@ import AVFoundation
 class ViewController: UIViewController {
 
 
-//Variables
+// MARK: - Variáveis
     struct Songs{
         let nameFile: String
         let cifra: String
@@ -91,7 +91,7 @@ class ViewController: UIViewController {
     var isSelectButton: [Bool?] = [false, false, false, false]
 
 
-//Functions
+
     func loadNumberFile(){
         let qtMusics: Int = music.count
         numberFile = Int( arc4random_uniform(UInt32(qtMusics)) )
@@ -225,6 +225,10 @@ class ViewController: UIViewController {
     }
 
     func startNewRound(){
+        if !lbl_time.isHidden {
+            lbl_time.isHidden = true
+        }
+        
         if isKingMode {
             if errouKingMode {
                 ponctuation = ponctuation - Int(ponctuation/2)
@@ -294,7 +298,9 @@ class ViewController: UIViewController {
     }
 
 
-//Outlets
+    
+    
+//MARK: - Outlets
     @IBOutlet weak var btn_verificar: UIButton!
     @IBOutlet weak var btn_option01: UIButton!
     @IBOutlet weak var btn_option02: UIButton!
@@ -311,8 +317,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbl_time: UILabel!
     @IBOutlet weak var btn_kingMode: UIButton!
     
+  
     
-//Actions
+    
+//MARK: - Actions
     @IBAction func playSound(_ sender: Any) {
         prepareMusic()
         if !errorAudio {
@@ -452,6 +460,9 @@ class ViewController: UIViewController {
     @IBAction func kingMode(_ sender: Any) {
         if numberKingMode < 2 {
             isKingMode = true
+            if lbl_time.isHidden {
+                lbl_time.isHidden = false
+            }
             btn_cancelTwoOptions.isEnabled = false
             btn_passRound.isEnabled = false
             btn_kingMode.isEnabled = false
@@ -463,6 +474,7 @@ class ViewController: UIViewController {
                                          selector: #selector(ViewController.action), userInfo: nil, repeats: true)
         }
     }
+    
     @objc func action() {
         if time >= 0 {
             lbl_time.text = String(time)
@@ -472,6 +484,7 @@ class ViewController: UIViewController {
             timer.invalidate()
             lbl_messageTime.text = NSLocalizedString("Hit the chord", comment: "Frase curta indicando que o usuário deve acertar o acorde.")
             lbl_time.text = "-"
+            lbl_time.isHidden = true
             btn_cancelTwoOptions.isEnabled = false
             if numberCancelOptions != 3 {
                 btn_cancelTwoOptions.isEnabled = true
@@ -551,7 +564,9 @@ class ViewController: UIViewController {
     }
 
 
-//Default
+    
+    
+//MARK: - Default System
     override func viewDidLoad() {
         super.viewDidLoad()
         startNewRound()
@@ -577,7 +592,6 @@ class ViewController: UIViewController {
     For future
  
     Repensar nas telas junto aos planos para o futuro
-    Auto layout
     Ranking
     Conexão com redes sociais
     Níveis
