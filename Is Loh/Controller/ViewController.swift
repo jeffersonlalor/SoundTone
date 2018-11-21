@@ -538,22 +538,3 @@ class ViewController: UIViewController {
     }
 
 }
-
-
-/*
-    Correções
- 
-    Adicionar som dos bemois e preparar o código para não haver conflitos
-    Mudar layout no King Mode
-    Indicar quantas tentativas o jogador tem
-    Indicar buttons de ajuda
- */
-
-/*
-    For future
- 
-    Repensar nas telas junto aos planos para o futuro
-    Ranking
-    Conexão com redes sociais
-    Níveis
- */
