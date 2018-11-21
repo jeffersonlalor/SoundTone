@@ -226,10 +226,24 @@ class ViewController: UIViewController {
         applyDesignButtonDefault(button: btn_option04)
         
         round += 1
-        numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), round)
-        saveRoundCoreData(value: round)
-        score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), ponctuation)
-        saveScoreCoreData(value: ponctuation)
+        if round == 1 {
+            deleteAllRoundsCoreData()
+            saveRoundCoreData(value: round)
+        }else{
+            updateRoundCoreData(value: round)
+        }
+        numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), valueRoundCoreData())
+        
+        if ponctuation == 0 {
+            deleteAllScoresCoreData()
+            saveScoreCoreData(value: ponctuation)
+        }else{
+            updateScoreCoreData(value: ponctuation)
+        }
+
+        score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), valueScoreCoreData())
+        
+        
         numberTry = 0
         errorAudio = false
         errouKingMode = false
