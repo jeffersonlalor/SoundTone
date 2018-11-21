@@ -227,7 +227,9 @@ class ViewController: UIViewController {
         
         round += 1
         numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), round)
+        saveRoundCoreData(value: round)
         score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), ponctuation)
+        saveScoreCoreData(value: ponctuation)
         numberTry = 0
         errorAudio = false
         errouKingMode = false

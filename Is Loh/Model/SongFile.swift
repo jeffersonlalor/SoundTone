@@ -22,6 +22,7 @@ class SongFile {
     }
 }
 
+
 let music: [SongFile] = [
     SongFile.init(nameFile: "A - Clean", cifra: "A", chordeName: NSLocalizedString("A major", comment: "Lá maior")),
     SongFile.init(nameFile: "B - Clean", cifra: "B", chordeName: NSLocalizedString("B major", comment: "Sí maior")),
