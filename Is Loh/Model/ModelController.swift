@@ -43,15 +43,28 @@ func saveScoreCoreData( value: Int ) {
 }
 
 
-//MARK: - List
+// MARK: - List
 
-func listRoundCoreData() -> Int {
+func valueRoundCoreData() -> Int {
     
     
-    
+    return 0
 }
 
 
-func listScoreCoreData() -> Int {
+func valueScoreCoreData() -> Int {
+    
+    
+    return 0
+}
+
+
+// MARK: - Delete
+
+func deleteRoundCoreData(){
+    
+}
+
+func deleteScoreCoreData(){
     
 }
