@@ -28,14 +28,13 @@ class ViewController: UIViewController {
     
     
 // MARK: - Variáveis de jogabilidade
-    var round = 0
-    var ponctuation = 0
     var numberTry = 0
     var numberPassRound = 0
     var numberCancelOptions = 0
     var numberKingMode = 0
     var isKingMode: Bool = false
     var errouKingMode: Bool = false
+    var isFirstAcess: Bool = true
 
     
 // MARK: - Variáveis de controle de opção
@@ -211,7 +210,7 @@ class ViewController: UIViewController {
         
         if isKingMode {
             if errouKingMode {
-                ponctuation = ponctuation - Int(ponctuation/2)
+                updateScoreCoreData( value: valueScoreCoreData()! - Int(valueScoreCoreData()!/2) )
             }
         }
         
@@ -225,23 +224,20 @@ class ViewController: UIViewController {
         applyDesignButtonDefault(button: btn_option03)
         applyDesignButtonDefault(button: btn_option04)
         
-        round += 1
-        if round == 1 {
-            deleteAllRoundsCoreData()
-            saveRoundCoreData(value: round)
-        }else{
-            updateRoundCoreData(value: round)
+        if valueRoundCoreData() == nil {
+            saveRoundCoreData(value: 1)
+        }else if !isFirstAcess {
+            updateRoundCoreData(value: valueRoundCoreData()! + 1 )
         }
-        numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), valueRoundCoreData())
         
-        if ponctuation == 0 {
-            deleteAllScoresCoreData()
-            saveScoreCoreData(value: ponctuation)
-        }else{
-            updateScoreCoreData(value: ponctuation)
+        isFirstAcess = false
+        numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), valueRoundCoreData()!)
+        
+        if valueScoreCoreData() == nil {
+            saveScoreCoreData(value: 0)
         }
-
-        score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), valueScoreCoreData())
+        
+        score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), valueScoreCoreData()!)
         
         
         numberTry = 0
@@ -257,28 +253,28 @@ class ViewController: UIViewController {
     func updateScore(){
         switch numberTry {
             case 0:
-                if isKingMode && ponctuation != 0 {
-                    ponctuation *= 2
+                if isKingMode && valueScoreCoreData() != 0 {
+                    updateScoreCoreData(value: valueScoreCoreData()! * 2)
                 }else{
-                    ponctuation += 200
+                    updateScoreCoreData(value: valueScoreCoreData()! + 200)
                 }
             case 1:
-                if isKingMode && ponctuation != 0 {
-                    ponctuation *= 2
+                if isKingMode && valueScoreCoreData() != 0 {
+                    updateScoreCoreData(value: valueScoreCoreData()! * 2)
                 }else{
-                    ponctuation += 150
+                    updateScoreCoreData(value: valueScoreCoreData()! + 150)
                 }
             case 2:
-                if isKingMode && ponctuation != 0 {
-                    ponctuation *= 2
+                if isKingMode && valueScoreCoreData() != 0 {
+                    updateScoreCoreData(value: valueScoreCoreData()! * 2)
                 }else{
-                    ponctuation += 100
+                    updateScoreCoreData(value: valueScoreCoreData()! + 100)
             }
             default:
-                if isKingMode && ponctuation != 0 {
-                    ponctuation *= 2
+                if isKingMode && valueScoreCoreData() != 0 {
+                    updateScoreCoreData(value: valueScoreCoreData()! * 2)
                 }else{
-                    ponctuation += 50
+                    updateScoreCoreData(value: valueScoreCoreData()! + 50)
                 }
         }
     }
@@ -392,8 +388,8 @@ class ViewController: UIViewController {
             applyDesignButtonDefault(button: btn_option03)
             applyDesignButtonDefault(button: btn_option04)
             
-            numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), round)
-            score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), ponctuation)
+            numberRounds.text = String(format: NSLocalizedString("Round: %d", comment: "Palavra especificando a label de rodada."), valueRoundCoreData()!)
+            score.text = String(format: NSLocalizedString("Score: %d", comment: "Palavra especficando a pontuação do jogador."), valueScoreCoreData()!)
             numberTry = 0
             errorAudio = false
             numberPassRound += 1
@@ -512,8 +508,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func restartGame(_ sender: Any) {
-        ponctuation = 0
-        round = 0
+        updateScoreCoreData(value: 0)
+        updateRoundCoreData(value: 0)
         numberTry = 0
         numberPassRound = 0
         numberCancelOptions = 0

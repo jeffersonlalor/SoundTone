@@ -50,7 +50,7 @@ func saveScoreCoreData( value: Int ) {
 
 // MARK: - List
 
-func valueRoundCoreData() -> Int {
+func valueRoundCoreData() -> Int? {
     print("Retorna valor de round")
     let ordenacaoCrescente = NSSortDescriptor(key: "round", ascending: true)
 
@@ -63,7 +63,7 @@ func valueRoundCoreData() -> Int {
             for valor in rounds as! [NSManagedObject] {
                 if let valueRound = valor.value(forKey: "round"){
                     print(valueRound)
-                    return valueRound as! Int
+                    return valueRound as? Int
                 }
             }
         } else {
@@ -74,12 +74,11 @@ func valueRoundCoreData() -> Int {
         print("Erro ao recuperar valor do round")
     }
     
-    
-    return 0
+    return nil
 }
 
 
-func valueScoreCoreData() -> Int {
+func valueScoreCoreData() -> Int? {
     print("Retorna valor de Score")
     let ordenacaoCrescente = NSSortDescriptor(key: "score", ascending: true)
     
@@ -92,7 +91,7 @@ func valueScoreCoreData() -> Int {
             for score in scores as! [NSManagedObject] {
                 if let valueScore = score.value(forKey: "score"){
                     print(valueScore)
-                    return valueScore as! Int
+                    return valueScore as? Int
                 }
             }
         } else {
@@ -103,8 +102,7 @@ func valueScoreCoreData() -> Int {
         print("Erro ao recuperar valor do score")
     }
     
-
-    return 0
+    return nil
 }
 
 
